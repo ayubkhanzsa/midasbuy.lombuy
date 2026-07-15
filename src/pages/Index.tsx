@@ -742,8 +742,8 @@ const Index = ({ onLogout, overrideCountry, linkQuery, gameBrand = 'PUBG', disab
               <div className={`w-full bg-gradient-to-b from-midasbuy-darkBlue to-midasbuy-darkBlue/80 ${gameBrand === 'BGMI' ? 'h-[100px]' : 'h-[180px]'}`} />
             )}
             
-            {/* PUBG Characters Image - positioned OVER banner like reference - ONLY for PUBG, not BGMI */}
-            {gameBrand !== 'BGMI' && (
+            {/* PUBG Characters Image - positioned OVER banner - only rendered when admin-managed image is loaded */}
+            {gameBrand !== 'BGMI' && charactersImage && (
               <img 
                 src={charactersImage} 
                 alt="PUBG Characters" 
