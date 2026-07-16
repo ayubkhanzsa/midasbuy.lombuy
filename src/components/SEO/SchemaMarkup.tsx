@@ -8,7 +8,7 @@ interface SchemaMarkupProps {
 // Enhanced Schema.org markup for different page types
 export const SchemaMarkup = ({ type, data }: SchemaMarkupProps) => {
   const getSchemaData = () => {
-    const baseUrl = "https://www.middasbuy.com";
+    const baseUrl = "https://www.midasbuy.lombuy.com";
     
     switch (type) {
       case 'Organization':

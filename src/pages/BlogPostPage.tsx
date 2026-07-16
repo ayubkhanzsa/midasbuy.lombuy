@@ -189,9 +189,9 @@ const BlogPostPage = () => {
         "publisher": {
           "@type": "Organization",
           "name": "Midasbuy",
-          "logo": { "@type": "ImageObject", "url": "https://www.middasbuy.com/favicon.png" }
+          "logo": { "@type": "ImageObject", "url": "https://www.midasbuy.lombuy.com/favicon.png" }
         },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": `https://www.middasbuy.com/blogs/${blog.slug}` },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": `https://www.midasbuy.lombuy.com/blogs/${blog.slug}` },
         "keywords": blog.tags?.join(', ')
       }) }} />
 
