@@ -37,7 +37,7 @@ const CountryCarPurchasePage = ({ onLogout }: CountryCarPurchasePageProps) => {
         description={seoDescription}
         keywords={seoKeywords}
         canonicalUrl={`/midasbuy/${countryCode?.toLowerCase()}/buy/car`}
-        ogImage="https://www.middasbuy.com/lovable-uploads/porsche-cayenne-red.jpeg"
+        ogImage="https://www.midasbuy.lombuy.com/lovable-uploads/porsche-cayenne-red.jpeg"
       />
       <FAQSchema faqs={countryFAQs} />
       <HowToSchema 

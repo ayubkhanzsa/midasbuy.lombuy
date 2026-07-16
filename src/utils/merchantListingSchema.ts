@@ -7,7 +7,7 @@
  *  - Invalid object type for field "audience"
  */
 
-const BASE_URL = "https://www.middasbuy.com";
+const BASE_URL = "https://www.midasbuy.lombuy.com";
 const SELLER = {
   "@type": "Organization",
   "name": "Midasbuy",
