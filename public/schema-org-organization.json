@@ -13,7 +13,7 @@
   "contactPoint": [
     {
       "@type": "ContactPoint",
-      "telephone": "+1 4502322003",
+      "telephone": "+1 4502324500",
       "contactType": "Customer Service",
       "areaServed": "Worldwide",
       "availableLanguage": ["English", "Hindi", "Urdu", "Arabic"],
@@ -22,7 +22,7 @@
     {
       "@type": "ContactPoint",
       "contactType": "Customer Support",
-      "email": "help@midasbuy.com.co",
+      "email": "help@midasbuy.com.pk",
       "areaServed": "Worldwide",
       "availableLanguage": ["English", "Hindi", "Urdu", "Arabic"]
     }

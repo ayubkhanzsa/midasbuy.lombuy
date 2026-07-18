@@ -303,8 +303,8 @@ const BGMIPage: React.FC<BGMIPageProps> = ({ onLogout }) => {
         "name": "Midasbuy BGMI UC Store",
         "description": "India's #1 BGMI UC Store - Buy BGMI Unknown Cash at lowest prices with instant delivery",
         "url": "https://midasbuy.lombuy.com/bgmi",
-        "telephone": "+44 7476 966269",
-        "email": "help@midasbuy.com.co",
+        "telephone": "+1 450 232 4500",
+        "email": "help@midasbuy.com.pk",
         "address": {
           "@type": "PostalAddress",
           "addressCountry": "IN",
@@ -381,8 +381,8 @@ const BGMIPage: React.FC<BGMIPageProps> = ({ onLogout }) => {
             "@type": "ContactPoint",
             "contactType": "customer service",
             "availableLanguage": ["English", "Hindi"],
-            "telephone": "+44 7476 966269",
-            "email": "help@midasbuy.com.co"
+            "telephone": "+1 450 232 4500",
+            "email": "help@midasbuy.com.pk"
           },
           {
             "@type": "ContactPoint",

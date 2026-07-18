@@ -81,7 +81,7 @@ ABOUT MIDASBUY:
 - Trusted by thousands of gamers
 
 CONTACT INFO (IMPORTANT - USE THESE EXACT NUMBERS):
-📱 WhatsApp: +44 7476 966269 (24/7 fastest support)
+📱 WhatsApp: +1 450 232 4500 (24/7 fastest support)
 📧 Email: help@midasbuy.com.pk
 
 AVAILABLE GAMES & PRODUCTS:
@@ -235,11 +235,11 @@ Remember: You're Mira - helpful, friendly, and always here to help gamers level 
     
     // Smart fallback responses
     const fallbackResponses = [
-      "I'm here to help! What do you need:\n\n🎮 PUBG UC Packages?\n💎 Free Fire Diamonds?\n❓ Support or FAQs?\n\nWhatsApp: +44 7476 966269 (24/7)",
+      "I'm here to help! What do you need:\n\n🎮 PUBG UC Packages?\n💎 Free Fire Diamonds?\n❓ Support or FAQs?\n\nWhatsApp: +1 450 232 4500 (24/7)",
       
-      "Let me help you with:\n\n• Package Info\n• Order Status\n• Payment Help\n• Refund Request\n\nWhatsApp Support: +44 7476 966269",
+      "Let me help you with:\n\n• Package Info\n• Order Status\n• Payment Help\n• Refund Request\n\nWhatsApp Support: +1 450 232 4500",
       
-      "Available Services:\n\n🎮 PUBG UC (PKR 3,600+)\n💎 Free Fire Diamonds (PKR 3,800+)\n📞 24/7 Support: +44 7476 966269\n\nWhat can I help with?"
+      "Available Services:\n\n🎮 PUBG UC (PKR 3,600+)\n💎 Free Fire Diamonds (PKR 3,800+)\n📞 24/7 Support: +1 450 232 4500\n\nWhat can I help with?"
     ];
     
     const fallback = fallbackResponses[Math.floor(Math.random() * fallbackResponses.length)];
