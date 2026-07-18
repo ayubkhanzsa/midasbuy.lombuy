@@ -762,6 +762,36 @@ export type Database = {
         }
         Relationships: []
       }
+      payment_logs: {
+        Row: {
+          created_at: string
+          gateway: string | null
+          id: string
+          order_id: string | null
+          payload: Json | null
+          status: string | null
+          transaction_id: string | null
+        }
+        Insert: {
+          created_at?: string
+          gateway?: string | null
+          id?: string
+          order_id?: string | null
+          payload?: Json | null
+          status?: string | null
+          transaction_id?: string | null
+        }
+        Update: {
+          created_at?: string
+          gateway?: string | null
+          id?: string
+          order_id?: string | null
+          payload?: Json | null
+          status?: string | null
+          transaction_id?: string | null
+        }
+        Relationships: []
+      }
       profiles: {
         Row: {
           auth_attempts: number | null
@@ -964,6 +994,42 @@ export type Database = {
           updated_at?: string
           video_duration?: number | null
           video_url?: string | null
+        }
+        Relationships: []
+      }
+      pubg_uc_page_content: {
+        Row: {
+          active: boolean
+          content: string | null
+          content_key: string
+          created_at: string
+          id: string
+          image_url: string | null
+          order_position: number
+          title: string | null
+          updated_at: string
+        }
+        Insert: {
+          active?: boolean
+          content?: string | null
+          content_key: string
+          created_at?: string
+          id?: string
+          image_url?: string | null
+          order_position?: number
+          title?: string | null
+          updated_at?: string
+        }
+        Update: {
+          active?: boolean
+          content?: string | null
+          content_key?: string
+          created_at?: string
+          id?: string
+          image_url?: string | null
+          order_position?: number
+          title?: string | null
+          updated_at?: string
         }
         Relationships: []
       }
