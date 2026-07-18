@@ -36,6 +36,7 @@ import { GuestEmailDialog } from "@/components/GuestEmailDialog";
 import { useNavigate, useParams } from "react-router-dom";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { useAuthModal } from "@/contexts/AuthModalContext";
+import { useEnabledGateways } from "@/hooks/usePaymentGateways";
 import { 
   ttqViewContent, 
   ttqInitiateCheckout, 
@@ -137,6 +138,7 @@ const MidasCheckoutModal: React.FC<MidasCheckoutModalProps> = ({
   };
   
   const [selectedMethod, setSelectedMethod] = useState<string>('card');
+  const { isEnabled: isGatewayEnabled } = useEnabledGateways();
   const [showPriceDetails, setShowPriceDetails] = useState<boolean>(false);
   const [showPlayerIdModal, setShowPlayerIdModal] = useState<boolean>(false);
   const [showCouponModal, setShowCouponModal] = useState<boolean>(false);
