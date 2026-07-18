@@ -32,9 +32,11 @@ async function generateVapidJWT(endpoint: string, vapidPrivateKey: string, vapid
   const origin = new URL(endpoint).origin;
   const iat = Math.floor(Date.now() / 1000);
   const exp = iat + 12 * 60 * 60;
+  const rawSubject = Deno.env.get('VAPID_SUBJECT') || 'mailto:support@midasbuy.com.pk';
+  const subject = rawSubject.includes(':') ? rawSubject : `mailto:${rawSubject}`;
 
   const header = { alg: 'ES256', typ: 'JWT' };
-  const payload = { aud: origin, exp, sub: 'mailto:support@midasbuy.com.pk' };
+  const payload = { aud: origin, exp, sub: subject };
 
   const enc = new TextEncoder();
   const headerB64 = uint8ArrayToBase64Url(enc.encode(JSON.stringify(header)));
