@@ -15,6 +15,7 @@ import { useIPDetection } from "@/hooks/useIPDetection";
 import usePWAInstall from "@/hooks/usePWAInstall";
 import { useAuthModal } from "@/contexts/AuthModalContext";
 import { getFlag } from "@/utils/countryFlags";
+import { FlagImg } from "@/components/FlagImg";
 import { getLanguageForCountry, isRTLLanguage } from "@/utils/countryLanguageMapping";
 import trustpilotStars from "@/assets/trustpilot-stars.webp";
 import trustpilotLogo from "@/assets/trustpilot-logo.webp";
@@ -620,9 +621,7 @@ const Header = ({ onLogout, showNavigation = false, activeSection = "popular-gam
               className="flex items-center text-gray-300 hover:text-white transition-colors bg-transparent text-xs px-2 py-1"
               onClick={handleOpenCountryMenu}
             >
-              <span className="text-base mr-1 select-none" role="img" aria-label={currentCountry.name}>
-                {getFlag(currentCountry.code)}
-              </span>
+              <FlagImg code={currentCountry.code} name={currentCountry.name} className="mr-1" />
               <span className="hidden sm:inline">{currentCountry.name}</span>
               <span className="text-xs ml-1 text-midasbuy-gold">{currentCountry.currency}</span>
               <ChevronDown className="w-3 h-3 ml-1" />
@@ -676,9 +675,7 @@ const Header = ({ onLogout, showNavigation = false, activeSection = "popular-gam
               onClick={handleOpenCountryMenu}
               aria-label="Select Country"
             >
-              <span className="text-base select-none" role="img" aria-label={currentCountry.name}>
-                {getFlag(currentCountry.code)}
-              </span>
+              <FlagImg code={currentCountry.code} name={currentCountry.name} />
               <span className="text-xs ml-1 text-midasbuy-gold">{currentCountry.currency}</span>
               <ChevronDown className="w-3 h-3 ml-1" />
             </button>
