@@ -943,7 +943,7 @@ For gaming issues, screenshots, or payment problems, our agents can help better.
             <div className="flex gap-2 max-w-3xl mx-auto items-center">
               {/* WhatsApp Button - Professional Design */}
               <a
-                href="https://wa.me/14502322003"
+                href="https://wa.me/14502324500"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex-shrink-0 h-11 w-11 rounded-lg flex items-center justify-center transition-all hover:scale-105 active:scale-95"

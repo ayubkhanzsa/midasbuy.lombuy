@@ -191,13 +191,13 @@ const ContactUsPage = ({ onLogout }: ContactUsPageProps) => {
                     <div>
                       <h3 className="font-medium text-white">WhatsApp Support</h3>
                       <div className="space-y-1">
-                        <a href="https://wa.me/14502322003" className="block text-midasbuy-gold hover:underline">
+                        <a href="https://wa.me/14502324500" className="block text-midasbuy-gold hover:underline">
                           +1 450 232 2003
                         </a>
                       </div>
                       <p className="text-xs text-gray-400">24/7 Customer Support via WhatsApp</p>
                       <a
-                        href="https://wa.me/14502322003"
+                        href="https://wa.me/14502324500"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="mt-3 inline-flex items-center justify-center gap-2 px-5 py-2.5 bg-gradient-to-r from-[#25D366] to-[#128C7E] hover:from-[#20BD5A] hover:to-[#0d7d6e] text-white font-medium rounded-full transition-all shadow-lg hover:shadow-[#25D366]/30 hover:scale-105"
@@ -216,7 +216,7 @@ const ContactUsPage = ({ onLogout }: ContactUsPageProps) => {
                     </div>
                     <div>
                       <h3 className="font-medium text-white">Email Support</h3>
-                      <p className="text-midasbuy-gold">help@midasbuy.com.co</p>
+                      <p className="text-midasbuy-gold">help@midasbuy.com.pk</p>
                       <p className="text-xs text-gray-400">For all inquiries and support</p>
                     </div>
                   </div>
