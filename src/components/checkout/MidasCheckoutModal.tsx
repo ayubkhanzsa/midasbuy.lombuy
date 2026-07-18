@@ -162,6 +162,19 @@ const MidasCheckoutModal: React.FC<MidasCheckoutModalProps> = ({
   // Payment states
   const [userEmail, setUserEmail] = useState<string | null>(null);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [isAdmin, setIsAdmin] = useState(false);
+
+  // Detect admin (for admin-only Test Gateway)
+  useEffect(() => {
+    let mounted = true;
+    (async () => {
+      const { data: { user } } = await supabase.auth.getUser();
+      if (!user) { if (mounted) setIsAdmin(false); return; }
+      const { data } = await supabase.rpc('has_role', { _user_id: user.id, _role: 'admin' as any });
+      if (mounted) setIsAdmin(!!data);
+    })();
+    return () => { mounted = false; };
+  }, [open, isLoggedIn]);
   const [isPaymentLoading, setIsPaymentLoading] = useState(false);
   const [showCryptoPayment, setShowCryptoPayment] = useState(false);
   
@@ -1069,8 +1082,54 @@ const MidasCheckoutModal: React.FC<MidasCheckoutModalProps> = ({
     } else if (selectedMethod === 'binance') {
       // Show Binance crypto payment section inline
       setShowCryptoPayment(true);
+    } else if (selectedMethod === 'test_admin') {
+      // Admin-only test gateway: create real order, redirect to thank-you like other gateways
+      (async () => {
+        try {
+          const { data: { user } } = await supabase.auth.getUser();
+          if (!user) {
+            toast({ title: 'Login required', description: 'Admin must be logged in.', variant: 'destructive' });
+            return;
+          }
+          const basketId = 'TEST-' + Date.now() + '-' + Math.random().toString(36).slice(2, 8);
+          const totalUC = selectedPackage.baseAmount + selectedPackage.bonusAmount;
+          const productAmount = `${selectedPackage.baseAmount}+${selectedPackage.bonusAmount}`;
+          const finalProductName = isShopProduct
+            ? shopProductTitle
+            : (isFreeFire ? `${productAmount} Diamonds`
+              : (isRoblox ? `${productAmount} Robux`
+                : (isValorant ? `${productAmount} VP`
+                  : `${productAmount} UC`)));
+
+          const { error: insertErr } = await supabase.from('orders').insert({
+            user_id: user.id,
+            amount: selectedPackage.price,
+            price: selectedPackage.price,
+            currency_code: 'PKR',
+            player_id: userInfo?.id || '',
+            status: 'pending',
+            payment_method: 'test_admin',
+            transaction_id: basketId,
+            product_type: productType,
+            product_name: finalProductName,
+            product_code: String(selectedPackage.id),
+            product_amount: productAmount,
+          });
+          if (insertErr) {
+            console.error('Test gateway order insert failed:', insertErr);
+            toast({ title: 'Test order failed', description: insertErr.message, variant: 'destructive' });
+            return;
+          }
+          onOpenChange(false);
+          navigate(`/thank-you?transaction_id=${basketId}&method=test_admin`);
+        } catch (e: any) {
+          console.error('Test gateway error:', e);
+          toast({ title: 'Test gateway error', description: e?.message || 'Failed', variant: 'destructive' });
+        }
+      })();
     }
   };
+
 
   if (!selectedPackage) return null;
 
@@ -1691,8 +1750,38 @@ const MidasCheckoutModal: React.FC<MidasCheckoutModalProps> = ({
                         )}
                       </div>
                       )}
+
+
+                      {/* Admin-only Test Gateway */}
+                      {isAdmin && (
+                        <div
+                          onClick={() => setSelectedMethod('test_admin')}
+                          className={`relative flex items-center justify-between p-4 rounded-xl cursor-pointer border-[1.5px] hover:bg-[#252a3d] ${
+                            selectedMethod === 'test_admin' ? 'bg-[#151a2e] border-[#22c55e]' : 'bg-[#1c2133] border-[#1c2133]'
+                          }`}
+                        >
+                          <div className="absolute top-0 left-0 bg-emerald-500 text-black text-[10px] font-bold px-2 py-[2px] rounded-br-lg z-10">
+                            ADMIN TEST
+                          </div>
+                          <div className="mt-4 flex items-center gap-3">
+                            <div className="w-8 h-8 rounded-full bg-emerald-500/20 flex items-center justify-center">
+                              <span className="text-emerald-400 text-lg">✓</span>
+                            </div>
+                            <div>
+                              <div className="text-white font-semibold text-sm">Test Gateway</div>
+                              <div className="text-gray-400 text-[11px]">Simulates a successful payment (admin only)</div>
+                            </div>
+                          </div>
+                          <div className="text-right mt-4">
+                            <span className="text-emerald-400 font-bold text-sm">
+                              {formatPrice(selectedPackage.price)}
+                            </span>
+                          </div>
+                        </div>
+                      )}
                    </div>
-                </div>
+                 </div>
+
 
                 {/* RIGHT COLUMN (Order Summary) - Desktop Only */}
                 <div className="hidden md:block w-[400px] shrink-0">
