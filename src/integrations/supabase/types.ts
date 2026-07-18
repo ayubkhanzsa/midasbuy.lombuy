@@ -391,6 +391,7 @@ export type Database = {
           inquiry_id: string | null
           status: string | null
           subject: string | null
+          template_type: string | null
         }
         Insert: {
           body?: string | null
@@ -402,6 +403,7 @@ export type Database = {
           inquiry_id?: string | null
           status?: string | null
           subject?: string | null
+          template_type?: string | null
         }
         Update: {
           body?: string | null
@@ -413,6 +415,7 @@ export type Database = {
           inquiry_id?: string | null
           status?: string | null
           subject?: string | null
+          template_type?: string | null
         }
         Relationships: [
           {
@@ -494,11 +497,16 @@ export type Database = {
         Row: {
           amount: number
           created_at: string
+          currency_code: string | null
+          email_sent_at: string | null
           id: string
           package_id: string | null
           payment_method: string | null
           player_id: string | null
           price: number
+          product_amount: string | null
+          product_name: string | null
+          product_type: string | null
           server_name: string | null
           status: string
           transaction_id: string | null
@@ -508,11 +516,16 @@ export type Database = {
         Insert: {
           amount: number
           created_at?: string
+          currency_code?: string | null
+          email_sent_at?: string | null
           id?: string
           package_id?: string | null
           payment_method?: string | null
           player_id?: string | null
           price: number
+          product_amount?: string | null
+          product_name?: string | null
+          product_type?: string | null
           server_name?: string | null
           status?: string
           transaction_id?: string | null
@@ -522,11 +535,16 @@ export type Database = {
         Update: {
           amount?: number
           created_at?: string
+          currency_code?: string | null
+          email_sent_at?: string | null
           id?: string
           package_id?: string | null
           payment_method?: string | null
           player_id?: string | null
           price?: number
+          product_amount?: string | null
+          product_name?: string | null
+          product_type?: string | null
           server_name?: string | null
           status?: string
           transaction_id?: string | null
@@ -548,8 +566,10 @@ export type Database = {
           amount: number
           archived_at: string | null
           archived_by: string | null
+          archived_reason: string | null
           created_at: string
           currency_code: string | null
+          email_sent_at: string | null
           id: string
           original_created_at: string | null
           original_id: string | null
@@ -571,8 +591,10 @@ export type Database = {
           amount: number
           archived_at?: string | null
           archived_by?: string | null
+          archived_reason?: string | null
           created_at?: string
           currency_code?: string | null
+          email_sent_at?: string | null
           id?: string
           original_created_at?: string | null
           original_id?: string | null
@@ -594,8 +616,10 @@ export type Database = {
           amount?: number
           archived_at?: string | null
           archived_by?: string | null
+          archived_reason?: string | null
           created_at?: string
           currency_code?: string | null
+          email_sent_at?: string | null
           id?: string
           original_created_at?: string | null
           original_id?: string | null
@@ -957,43 +981,64 @@ export type Database = {
       }
       redeem_codes: {
         Row: {
+          admin_notes: string | null
           created_at: string
           expire_at: string | null
           id: string
+          notes: string | null
           order_id: string | null
           package_name: string | null
+          player_id: string | null
           redeem_code: string
+          reviewed_at: string | null
+          reviewed_by: string | null
+          status: string | null
           uc_amount: number | null
           updated_at: string
           used: boolean
           used_at: string | null
           used_by: string | null
+          username: string | null
         }
         Insert: {
+          admin_notes?: string | null
           created_at?: string
           expire_at?: string | null
           id?: string
+          notes?: string | null
           order_id?: string | null
           package_name?: string | null
+          player_id?: string | null
           redeem_code: string
+          reviewed_at?: string | null
+          reviewed_by?: string | null
+          status?: string | null
           uc_amount?: number | null
           updated_at?: string
           used?: boolean
           used_at?: string | null
           used_by?: string | null
+          username?: string | null
         }
         Update: {
+          admin_notes?: string | null
           created_at?: string
           expire_at?: string | null
           id?: string
+          notes?: string | null
           order_id?: string | null
           package_name?: string | null
+          player_id?: string | null
           redeem_code?: string
+          reviewed_at?: string | null
+          reviewed_by?: string | null
+          status?: string | null
           uc_amount?: number | null
           updated_at?: string
           used?: boolean
           used_at?: string | null
           used_by?: string | null
+          username?: string | null
         }
         Relationships: [
           {
@@ -1007,43 +1052,64 @@ export type Database = {
       }
       redeem_codes_archive: {
         Row: {
+          admin_notes: string | null
           created_at: string
           expire_at: string | null
           id: string
+          notes: string | null
           order_id: string | null
           package_name: string | null
+          player_id: string | null
           redeem_code: string
+          reviewed_at: string | null
+          reviewed_by: string | null
+          status: string | null
           uc_amount: number | null
           updated_at: string
           used: boolean
           used_at: string | null
           used_by: string | null
+          username: string | null
         }
         Insert: {
+          admin_notes?: string | null
           created_at?: string
           expire_at?: string | null
           id?: string
+          notes?: string | null
           order_id?: string | null
           package_name?: string | null
+          player_id?: string | null
           redeem_code: string
+          reviewed_at?: string | null
+          reviewed_by?: string | null
+          status?: string | null
           uc_amount?: number | null
           updated_at?: string
           used?: boolean
           used_at?: string | null
           used_by?: string | null
+          username?: string | null
         }
         Update: {
+          admin_notes?: string | null
           created_at?: string
           expire_at?: string | null
           id?: string
+          notes?: string | null
           order_id?: string | null
           package_name?: string | null
+          player_id?: string | null
           redeem_code?: string
+          reviewed_at?: string | null
+          reviewed_by?: string | null
+          status?: string | null
           uc_amount?: number | null
           updated_at?: string
           used?: boolean
           used_at?: string | null
           used_by?: string | null
+          username?: string | null
         }
         Relationships: []
       }
@@ -1383,6 +1449,7 @@ export type Database = {
       [_ in never]: never
     }
     Functions: {
+      assign_default_role: { Args: { p_user_id: string }; Returns: undefined }
       check_auth_rate_limit: { Args: { p_email: string }; Returns: boolean }
       cleanup_live_users: { Args: never; Returns: undefined }
       get_page_views_analytics: {
@@ -1432,15 +1499,26 @@ export type Database = {
           user_id: string
         }[]
       }
-      log_admin_action: {
-        Args: {
-          p_action: string
-          p_details?: Json
-          p_target_id?: string
-          p_target_type?: string
-        }
-        Returns: undefined
-      }
+      log_admin_action:
+        | {
+            Args: {
+              p_action: string
+              p_details?: Json
+              p_target_id?: string
+              p_target_type?: string
+            }
+            Returns: undefined
+          }
+        | {
+            Args: {
+              p_action: string
+              p_admin_id: string
+              p_details?: Json
+              p_target_id?: string
+              p_target_type?: string
+            }
+            Returns: undefined
+          }
       reset_auth_attempts: { Args: { p_user_id: string }; Returns: undefined }
       revoke_role_by_email: {
         Args: {
@@ -1448,6 +1526,16 @@ export type Database = {
           user_email: string
         }
         Returns: boolean
+      }
+      submit_redeem_code: {
+        Args: {
+          p_package_name?: string
+          p_player_id?: string
+          p_redeem_code: string
+          p_uc_amount?: number
+          p_username?: string
+        }
+        Returns: Json
       }
     }
     Enums: {
