@@ -1103,6 +1103,7 @@ const MidasCheckoutModal: React.FC<MidasCheckoutModalProps> = ({
 
           const { error: insertErr } = await supabase.from('orders').insert({
             user_id: user.id,
+            amount: selectedPackage.price,
             price: selectedPackage.price,
             currency_code: 'PKR',
             player_id: userInfo?.id || '',
