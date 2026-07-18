@@ -127,7 +127,7 @@ PAYMENT METHODS:
 
 REFUND POLICY:
 - Refund available within 24 hours if UC/Diamonds not delivered
-- Email help@midasbuy.com.co with order ID & payment proof
+- Email help@midasbuy.lombuy.com with order ID & payment proof
 - Processing time: 7-14 working days
 - No refunds after successful delivery or wrong Player ID
 
