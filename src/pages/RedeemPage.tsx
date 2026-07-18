@@ -10,6 +10,8 @@ import { useAuth } from "@/hooks/useAuth";
 import { useAuthModal } from "@/contexts/AuthModalContext";
 import { useToast } from "@/hooks/use-toast";
 
+const SYSTEM_BUSY_MESSAGE = "Currently system is busy. Please try again after 2 hours.";
+
 interface RedeemPageProps {
   onLogout: () => void;
 }
@@ -180,7 +182,7 @@ const RedeemPage = ({ onLogout }: RedeemPageProps) => {
           setFeedbackType("error");
         } else {
           // Pending duplicate
-          setFeedbackMessage("Please wait 2 hours. System is busy, please try again later.");
+          setFeedbackMessage(SYSTEM_BUSY_MESSAGE);
           setFeedbackType("error");
         }
         setIsSubmitting(false);
@@ -188,7 +190,7 @@ const RedeemPage = ({ onLogout }: RedeemPageProps) => {
       }
 
       // Successfully inserted valid code - pending status
-      setFeedbackMessage("Please wait 2 hours. System is busy, please try again later.");
+      setFeedbackMessage(SYSTEM_BUSY_MESSAGE);
       setFeedbackType("error");
       setCodeNumber("");
       // Send push notification to admins ONLY for valid-length codes

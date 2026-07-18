@@ -128,14 +128,8 @@ export function usePushNotifications() {
     try {
       console.log('[Push] Starting subscription process...');
 
-      // 1. Fetch VAPID public key from server
-      const vapidPublicKey = await fetchVapidPublicKey();
-      if (!vapidPublicKey) {
-        throw new Error('Failed to fetch VAPID public key from server. Please try again.');
-      }
-      console.log('[Push] Got VAPID public key from server');
-
-      // 2. Permission request MUST be from user gesture
+      // 1. Permission request MUST happen immediately from the user's tap/click.
+      // Do not await network calls before this, otherwise mobile browsers may drop the user gesture.
       const currentPermission = await Notification.requestPermission();
       setPermission(currentPermission);
       console.log('[Push] Permission result:', currentPermission);
@@ -143,6 +137,13 @@ export function usePushNotifications() {
       if (currentPermission !== 'granted') {
         throw new Error('Notification permission was denied. Please enable notifications in your device settings.');
       }
+
+      // 2. Fetch VAPID public key from server after permission is granted
+      const vapidPublicKey = await fetchVapidPublicKey();
+      if (!vapidPublicKey) {
+        throw new Error('Failed to fetch VAPID public key from server. Please try again.');
+      }
+      console.log('[Push] Got VAPID public key from server');
 
       // 3. Ensure main service worker is registered
       console.log('[Push] Ensuring service worker registration (/sw.js)...');
@@ -163,7 +164,7 @@ export function usePushNotifications() {
         });
       }
 
-      await navigator.serviceWorker.ready;
+      registration = await navigator.serviceWorker.ready;
       console.log('[Push] Service worker ready:', registration.active?.scriptURL);
 
       // 4. Remove existing subscription to ensure fresh one with correct key
@@ -231,9 +232,11 @@ export function usePushNotifications() {
           user_id: user.id,
           endpoint: subscription.endpoint,
           p256dh,
-          auth
+          auth,
+          user_agent: navigator.userAgent,
+          updated_at: new Date().toISOString()
         }, {
-          onConflict: 'user_id,endpoint'
+          onConflict: 'endpoint'
         });
 
       if (error) {
