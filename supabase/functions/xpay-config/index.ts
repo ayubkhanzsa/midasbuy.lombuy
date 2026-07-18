@@ -13,9 +13,9 @@ serve(async (req) => {
 
   try {
     // These are safe to expose to frontend (like Stripe publishable key)
-    const publishableKey = Deno.env.get('XPAY_PUBLIC_KEY');
-    const accountId = Deno.env.get('XPAY_ACCOUNT_ID');
-    const hmacSecret = Deno.env.get('XPAY_API_SIGNATURE_SECRET');
+    const publishableKey = Deno.env.get('XPAY_PUBLIC_KEY') || Deno.env.get('XPAY_API_KEY');
+    const accountId = Deno.env.get('XPAY_ACCOUNT_ID') || Deno.env.get('XPAY_MERCHANT_ID');
+    const hmacSecret = Deno.env.get('XPAY_API_SIGNATURE_SECRET') || Deno.env.get('XPAY_SECRET_KEY');
 
     if (!publishableKey || !accountId || !hmacSecret) {
       console.error('Missing XPay configuration');

@@ -33,8 +33,8 @@ serve(async (req) => {
 
   try {
     const XPAY_SECRET_KEY = Deno.env.get("XPAY_SECRET_KEY");
-    const XPAY_ACCOUNT_ID = Deno.env.get("XPAY_ACCOUNT_ID");
-    const XPAY_API_SIGNATURE_SECRET = Deno.env.get("XPAY_API_SIGNATURE_SECRET");
+    const XPAY_ACCOUNT_ID = Deno.env.get("XPAY_ACCOUNT_ID") || Deno.env.get("XPAY_MERCHANT_ID");
+    const XPAY_API_SIGNATURE_SECRET = Deno.env.get("XPAY_API_SIGNATURE_SECRET") || Deno.env.get("XPAY_SECRET_KEY");
     const SUPABASE_URL = Deno.env.get("SUPABASE_URL");
     const SUPABASE_SERVICE_ROLE_KEY = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY");
 
