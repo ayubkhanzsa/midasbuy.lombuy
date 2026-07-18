@@ -1,0 +1,1 @@
+CREATE POLICY "Anyone can read live users" ON public.live_users FOR SELECT USING (true);
