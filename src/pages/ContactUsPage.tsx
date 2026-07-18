@@ -192,7 +192,7 @@ const ContactUsPage = ({ onLogout }: ContactUsPageProps) => {
                       <h3 className="font-medium text-white">WhatsApp Support</h3>
                       <div className="space-y-1">
                         <a href="https://wa.me/14502324500" className="block text-midasbuy-gold hover:underline">
-                          +1 450 232 2003
+                          +1 450 232 4500
                         </a>
                       </div>
                       <p className="text-xs text-gray-400">24/7 Customer Support via WhatsApp</p>

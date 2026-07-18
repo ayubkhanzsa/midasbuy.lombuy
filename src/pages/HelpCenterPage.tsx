@@ -65,7 +65,7 @@ const HelpCenterPage = ({ onLogout }: HelpCenterPageProps) => {
                 <div className="p-4 bg-midasbuy-navy/30 rounded-lg space-y-3">
                   <div>
                     <p className="font-medium text-white">{t('pages.helpCenter.customerSupport')}:</p>
-                    <a href="https://wa.me/14502324500" className="text-midasbuy-gold text-lg hover:underline">+1 450 232 2003</a>
+                    <a href="https://wa.me/14502324500" className="text-midasbuy-gold text-lg hover:underline">+1 450 232 4500</a>
                     <p className="text-sm text-gray-400 mt-1">{t('pages.helpCenter.clickToChat')}</p>
                   </div>
                 </div>
