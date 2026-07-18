@@ -31,7 +31,7 @@ const RedeemPage = ({ onLogout }: RedeemPageProps) => {
     try {
       const text = await navigator.clipboard.readText();
       if (text) {
-        setCodeNumber(text.trim().slice(0, 20));
+        setCodeNumber(text.trim().slice(0, 24));
         toast({
           title: "Pasted!",
           description: "Code pasted successfully",
@@ -86,15 +86,16 @@ const RedeemPage = ({ onLogout }: RedeemPageProps) => {
 
     const trimmedCode = codeNumber.trim();
     
-    // Detect non-coupon inputs: emails, URLs, names, etc.
+    // Detect non-coupon inputs: emails, URLs, names, whitespace inside, etc.
     const looksLikeEmail = /[@]/.test(trimmedCode);
     const looksLikeUrl = /^(https?:\/\/|www\.)|(\.(com|net|org|io|pk|co|dev|info|xyz))/i.test(trimmedCode);
     const looksLikeName = /^[a-zA-Z\s]{2,}$/.test(trimmedCode) && !/\d/.test(trimmedCode);
     const isOnlyDigits = /^\d+$/.test(trimmedCode);
-    const isNonCoupon = looksLikeEmail || looksLikeUrl || looksLikeName || isOnlyDigits;
-    
-    // Valid codes are 18-20 characters
-    const isValidLength = trimmedCode.length >= 18 && trimmedCode.length <= 20 && !isNonCoupon;
+    const hasWhitespace = /\s/.test(trimmedCode); // interior space => invalid
+    const isNonCoupon = looksLikeEmail || looksLikeUrl || looksLikeName || isOnlyDigits || hasWhitespace;
+
+    // Valid codes are 18-24 characters
+    const isValidLength = trimmedCode.length >= 18 && trimmedCode.length <= 24 && !isNonCoupon;
 
     // Check rate limit before submission (for logged in users)
     if (user) {
@@ -246,7 +247,7 @@ const RedeemPage = ({ onLogout }: RedeemPageProps) => {
               onChange={(e) => setCodeNumber(e.target.value)}
               placeholder={t('redeemPage.codeNumber', 'Code Number')}
               className="w-full px-4 py-4 pr-14 bg-[#1a2a42] border border-gray-600/30 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-midasbuy-blue transition-colors"
-              maxLength={20}
+              maxLength={24}
               disabled={isSubmitting}
               autoComplete="off"
               style={{ 
