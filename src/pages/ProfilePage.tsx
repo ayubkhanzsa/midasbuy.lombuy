@@ -124,11 +124,11 @@ export default function ProfilePage() {
         throw uploadError;
       }
 
-      const { data: { publicUrl } } = supabase.storage
+      const { data: signed } = await supabase.storage
         .from('site-assets')
-        .getPublicUrl(filePath);
+        .createSignedUrl(filePath, 60*60*24*365*10);
 
-      setFormState(prev => ({ ...prev, avatarUrl: publicUrl }));
+      setFormState(prev => ({ ...prev, avatarUrl: signed?.signedUrl || '' }));
       toast.success('Photo uploaded!');
     } catch (error: any) {
       toast.error(error.message || 'Failed to upload photo');
