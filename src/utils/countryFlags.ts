@@ -1,145 +1,42 @@
 /**
  * Country Flag Utilities
- * Uses emoji flags instead of external CDN to avoid "Other error" in Google crawl
- * Emoji flags are universally supported and don't require network requests
+ *
+ * NOTE: Emoji country flags don't render on Windows/Chrome (no font support),
+ * so we use flagcdn.com SVG images which render consistently everywhere.
  */
 
-// Convert country code to emoji flag
+// Emoji fallback (for platforms that support it or if image fails to load)
 export const getCountryFlagEmoji = (countryCode: string): string => {
-  if (!countryCode || countryCode.length !== 2) {
-    return '🌍'; // Default globe for invalid codes
-  }
-  
+  if (!countryCode || countryCode.length !== 2) return '🌍';
   const code = countryCode.toUpperCase();
   const codePoints = code.split('').map(
-    char => 0x1F1E6 + char.charCodeAt(0) - 'A'.charCodeAt(0)
+    (char) => 0x1f1e6 + char.charCodeAt(0) - 'A'.charCodeAt(0)
   );
   return String.fromCodePoint(...codePoints);
 };
 
-// Map of country codes to their emoji flags (for fallback/reference)
-export const COUNTRY_FLAG_MAP: Record<string, string> = {
-  // South Asia
-  PK: '🇵🇰',
-  IN: '🇮🇳',
-  BD: '🇧🇩',
-  NP: '🇳🇵',
-  LK: '🇱🇰',
-  AF: '🇦🇫',
-  BT: '🇧🇹',
-  MV: '🇲🇻',
-  
-  // North America
-  US: '🇺🇸',
-  CA: '🇨🇦',
-  MX: '🇲🇽',
-  
-  // Europe
-  GB: '🇬🇧',
-  DE: '🇩🇪',
-  FR: '🇫🇷',
-  IT: '🇮🇹',
-  ES: '🇪🇸',
-  PT: '🇵🇹',
-  NL: '🇳🇱',
-  BE: '🇧🇪',
-  CH: '🇨🇭',
-  AT: '🇦🇹',
-  PL: '🇵🇱',
-  CZ: '🇨🇿',
-  SE: '🇸🇪',
-  NO: '🇳🇴',
-  DK: '🇩🇰',
-  FI: '🇫🇮',
-  IE: '🇮🇪',
-  GR: '🇬🇷',
-  RO: '🇷🇴',
-  HU: '🇭🇺',
-  SK: '🇸🇰',
-  BG: '🇧🇬',
-  HR: '🇭🇷',
-  SI: '🇸🇮',
-  RS: '🇷🇸',
-  UA: '🇺🇦',
-  BY: '🇧🇾',
-  RU: '🇷🇺',
-  TR: '🇹🇷',
-  
-  // Middle East
-  SA: '🇸🇦',
-  AE: '🇦🇪',
-  QA: '🇶🇦',
-  KW: '🇰🇼',
-  BH: '🇧🇭',
-  OM: '🇴🇲',
-  JO: '🇯🇴',
-  LB: '🇱🇧',
-  SY: '🇸🇾',
-  IQ: '🇮🇶',
-  IR: '🇮🇷',
-  IL: '🇮🇱',
-  EG: '🇪🇬',
-  
-  // Asia Pacific
-  CN: '🇨🇳',
-  JP: '🇯🇵',
-  KR: '🇰🇷',
-  TW: '🇹🇼',
-  HK: '🇭🇰',
-  SG: '🇸🇬',
-  MY: '🇲🇾',
-  TH: '🇹🇭',
-  VN: '🇻🇳',
-  ID: '🇮🇩',
-  PH: '🇵🇭',
-  AU: '🇦🇺',
-  NZ: '🇳🇿',
-  
-  // Africa
-  ZA: '🇿🇦',
-  NG: '🇳🇬',
-  KE: '🇰🇪',
-  GH: '🇬🇭',
-  ET: '🇪🇹',
-  TZ: '🇹🇿',
-  UG: '🇺🇬',
-  MA: '🇲🇦',
-  DZ: '🇩🇿',
-  TN: '🇹🇳',
-  
-  // Latin America
-  BR: '🇧🇷',
-  AR: '🇦🇷',
-  CO: '🇨🇴',
-  CL: '🇨🇱',
-  PE: '🇵🇪',
-  VE: '🇻🇪',
-  EC: '🇪🇨',
-  
-  // Default
-  GLOBAL: '🌍',
-};
-
-// Get flag - uses dynamic emoji generation, falls back to map
-export const getFlag = (countryCode: string): string => {
-  if (!countryCode) return '🌍';
-  
-  const code = countryCode.toUpperCase();
-  
-  // Try dynamic generation first
-  const dynamicFlag = getCountryFlagEmoji(code);
-  if (dynamicFlag && dynamicFlag !== '🌍') {
-    return dynamicFlag;
+// Return SVG flag URL (works cross-platform incl. Windows)
+export const getFlagUrl = (countryCode: string): string => {
+  if (!countryCode || countryCode.length !== 2) {
+    return 'https://flagcdn.com/un.svg';
   }
-  
-  // Fallback to map
-  return COUNTRY_FLAG_MAP[code] || COUNTRY_FLAG_MAP.GLOBAL;
+  return `https://flagcdn.com/${countryCode.toLowerCase()}.svg`;
 };
 
-// Component-ready flag with proper styling class
-export const getFlagWithStyle = (countryCode: string): { flag: string; className: string } => {
-  return {
-    flag: getFlag(countryCode),
-    className: 'text-lg leading-none select-none',
-  };
+/**
+ * Returns an <img> HTML string for the flag. Kept as a string so existing
+ * `{getFlag(code)}` JSX call sites keep working — React will render the img
+ * tag when we output it as an element. To render as element, prefer <FlagImg />.
+ */
+export const getFlag = (countryCode: string): string => {
+  return getCountryFlagEmoji(countryCode);
 };
+
+// Backward-compat map
+export const COUNTRY_FLAG_MAP: Record<string, string> = {};
+
+export const getFlagWithStyle = (countryCode: string) => ({
+  flag: getCountryFlagEmoji(countryCode),
+  url: getFlagUrl(countryCode),
+  className: 'inline-block w-5 h-[15px] object-cover rounded-sm align-middle',
+});
