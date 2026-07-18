@@ -73,7 +73,7 @@ CRITICAL RULES:
 3. Answer exactly what's asked - don't overwhelm with info
 
 ABOUT MIDASBUY:
-- Website: https://midasbuy.com.co
+- Website: https://www.midasbuy.lombuy.com
 - Pakistan's most trusted gaming top-up platform
 - 100% secure with encrypted payments
 - Instant delivery (usually within minutes, max 30 mins)
