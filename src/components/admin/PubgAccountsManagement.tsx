@@ -181,8 +181,8 @@ export function PubgAccountsManagement() {
           .from('pubg_account_credentials')
           .upsert([{
             account_id: editingAccount.id,
-            email: credentialsData.login_email,
-            password: credentialsData.login_password
+            login_email: credentialsData.login_email,
+            login_password: credentialsData.login_password
           }]);
 
         if (credError) throw credError;
