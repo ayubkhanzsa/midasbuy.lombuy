@@ -124,7 +124,7 @@ export const getLanguageFromCountry = (countryCode: string): string => {
 // English (Default)
 const englishContent: DescriptionContent = {
   mainTitle: "PUBG Mobile UC Shop – Cheapest Official Redeem Codes & Recharge",
-  mainDescription: "Buy PUBG Mobile UC (Unknown Cash) at the official Middasbuy PUBG UC Shop – trusted PUBG Mobile distributor and global partner. We sell 100% official PUBG UC redeem codes and provide the cheapest recharge worldwide. Choose between instant top-up (Player ID recharge) or official gift card codes, all delivered instantly with 700+ secure payments & 123+ currencies.",
+  mainDescription: "Buy PUBG Mobile UC (Unknown Cash) at the official midasbuy.lombuy PUBG UC Shop – trusted PUBG Mobile distributor and global partner. We sell 100% official PUBG UC redeem codes and provide the cheapest recharge worldwide. Choose between instant top-up (Player ID recharge) or official gift card codes, all delivered instantly with 700+ secure payments & 123+ currencies.",
   unlockTitle: "💎 What Can You Unlock with PUBG UC?",
   priceTableTitle: "💰 PUBG MOBILE UC (GLOBAL) – PRICE TABLE",
   howToBuyTitle: "📲 How to Buy PUBG UC (Recharge)",
@@ -133,7 +133,7 @@ const englishContent: DescriptionContent = {
   codeDeliveryTitle: "🔄 Code Delivery & Validity",
   paymentMethodsTitle: "💳 Payment Methods",
   refundTitle: "🛡 Refund & Buyer Protection",
-  whyBuyTitle: "⭐ Why Buy from Middasbuy?",
+  whyBuyTitle: "⭐ Why Buy from midasbuy.lombuy?",
   globalShopsTitle: "🌍 PUBG Mobile UC – All Shops",
   bestValueText: "🏆 Best value package – cheapest cost per UC!",
   unlockables: [
@@ -149,7 +149,7 @@ const englishContent: DescriptionContent = {
     "Pay securely → UC delivered instantly!"
   ],
   redeemSteps: [
-    "Buy official PUBG UC redeem code at Middasbuy",
+    "Buy official PUBG UC redeem code at midasbuy.lombuy",
     "Visit Midasbuy Redeem page",
     "Enter Player ID + code → UC credited instantly!"
   ],
@@ -165,7 +165,7 @@ const englishContent: DescriptionContent = {
   ],
   refundPoints: [
     "100% official & unused PUBG UC codes",
-    "Covered by Middasbuy Buyer Protection Policy",
+    "Covered by midasbuy.lombuy Buyer Protection Policy",
     "24/7 customer support for any issues"
   ],
   whyBuyPoints: [
@@ -189,18 +189,18 @@ const englishContent: DescriptionContent = {
   },
   faqsTitle: "Frequently Asked Questions - PUBG UC Recharge",
   faqs: [
-    { question: "How can I buy PUBG Mobile UC online?", answer: "You can buy PUBG UC Recharge (Top-Up by Player ID) or purchase official PUBG UC Gift Cards & Redeem Codes at Middasbuy. Simply enter your Player ID, select your UC package, and complete payment for instant delivery." },
-    { question: "Which is better for PUBG UC: Recharge or Redeem Code?", answer: "Recharge (Top-Up) is usually cheaper and instant, while Redeem Codes are better for gifting UC to friends. Both methods are 100% official and secure at Middasbuy." },
-    { question: "Is there an official PUBG Mobile UC Shop?", answer: "Yes, Middasbuy is an official PUBG UC Top-Up & Gift Card Shop trusted by 20M+ gamers worldwide with instant delivery and secure payments." },
+    { question: "How can I buy PUBG Mobile UC online?", answer: "You can buy PUBG UC Recharge (Top-Up by Player ID) or purchase official PUBG UC Gift Cards & Redeem Codes at midasbuy.lombuy. Simply enter your Player ID, select your UC package, and complete payment for instant delivery." },
+    { question: "Which is better for PUBG UC: Recharge or Redeem Code?", answer: "Recharge (Top-Up) is usually cheaper and instant, while Redeem Codes are better for gifting UC to friends. Both methods are 100% official and secure at midasbuy.lombuy." },
+    { question: "Is there an official PUBG Mobile UC Shop?", answer: "Yes, midasbuy.lombuy is an official PUBG UC Top-Up & Gift Card Shop trusted by 20M+ gamers worldwide with instant delivery and secure payments." },
     { question: "How fast is PUBG UC delivery after Recharge?", answer: "Top-Up is instant to your account (usually within 1-5 minutes), and Redeem Code is sent instantly by email after payment confirmation." },
-    { question: "Is it safe to buy PUBG UC from Middasbuy?", answer: "Yes, Middasbuy is an official authorized distributor with secure PUBG UC Recharge, Gift Cards, Buyer Protection, and 24/7 customer support." },
+    { question: "Is it safe to buy PUBG UC from midasbuy.lombuy?", answer: "Yes, midasbuy.lombuy is an official authorized distributor with secure PUBG UC Recharge, Gift Cards, Buyer Protection, and 24/7 customer support." },
   ]
 };
 
 // Urdu (Pakistan)
 const urduContent: DescriptionContent = {
   mainTitle: "PUBG موبائل UC شاپ – سب سے سستے آفیشل ریڈیم کوڈز اور ریچارج",
-  mainDescription: "PUBG موبائل UC (انجان کیش) آفیشل Middasbuy PUBG UC شاپ سے خریدیں – PUBG موبائل کا معتبر ڈسٹری بیوٹر اور گلوبل پارٹنر۔ ہم 100% آفیشل PUBG UC ریڈیم کوڈز فروخت کرتے ہیں اور دنیا بھر میں سب سے سستا ریچارج فراہم کرتے ہیں۔ فوری ٹاپ اپ (پلیئر آئی ڈی ریچارج) یا آفیشل گفٹ کارڈ کوڈز میں سے انتخاب کریں، سب فوری طور پر 700+ محفوظ ادائیگیوں اور 123+ کرنسیوں کے ساتھ ڈیلیور ہوتے ہیں۔",
+  mainDescription: "PUBG موبائل UC (انجان کیش) آفیشل midasbuy.lombuy PUBG UC شاپ سے خریدیں – PUBG موبائل کا معتبر ڈسٹری بیوٹر اور گلوبل پارٹنر۔ ہم 100% آفیشل PUBG UC ریڈیم کوڈز فروخت کرتے ہیں اور دنیا بھر میں سب سے سستا ریچارج فراہم کرتے ہیں۔ فوری ٹاپ اپ (پلیئر آئی ڈی ریچارج) یا آفیشل گفٹ کارڈ کوڈز میں سے انتخاب کریں، سب فوری طور پر 700+ محفوظ ادائیگیوں اور 123+ کرنسیوں کے ساتھ ڈیلیور ہوتے ہیں۔",
   unlockTitle: "💎 PUBG UC سے آپ کیا ان لاک کر سکتے ہیں؟",
   priceTableTitle: "💰 PUBG موبائل UC (گلوبل) – قیمتوں کی فہرست",
   howToBuyTitle: "📲 PUBG UC کیسے خریدیں (ریچارج)",
@@ -209,7 +209,7 @@ const urduContent: DescriptionContent = {
   codeDeliveryTitle: "🔄 کوڈ ڈیلیوری اور درستگی",
   paymentMethodsTitle: "💳 ادائیگی کے طریقے",
   refundTitle: "🛡 ریفنڈ اور خریدار تحفظ",
-  whyBuyTitle: "⭐ Middasbuy سے کیوں خریدیں؟",
+  whyBuyTitle: "⭐ midasbuy.lombuy سے کیوں خریدیں؟",
   globalShopsTitle: "🌍 PUBG موبائل UC – تمام شاپس",
   bestValueText: "🏆 بہترین قیمت والا پیکج – فی UC سب سے سستی قیمت!",
   unlockables: [
@@ -225,7 +225,7 @@ const urduContent: DescriptionContent = {
     "محفوظ طریقے سے ادائیگی کریں → UC فوری طور پر ڈیلیور!"
   ],
   redeemSteps: [
-    "Middasbuy سے آفیشل PUBG UC ریڈیم کوڈ خریدیں",
+    "midasbuy.lombuy سے آفیشل PUBG UC ریڈیم کوڈ خریدیں",
     "Midasbuy ریڈیم پیج پر جائیں",
     "پلیئر آئی ڈی + کوڈ درج کریں → UC فوری طور پر جمع!"
   ],
@@ -241,7 +241,7 @@ const urduContent: DescriptionContent = {
   ],
   refundPoints: [
     "100% آفیشل اور غیر استعمال شدہ PUBG UC کوڈز",
-    "Middasbuy خریدار تحفظ پالیسی کے تحت",
+    "midasbuy.lombuy خریدار تحفظ پالیسی کے تحت",
     "کسی بھی مسئلے کے لیے 24/7 کسٹمر سپورٹ"
   ],
   whyBuyPoints: [
@@ -265,18 +265,18 @@ const urduContent: DescriptionContent = {
   },
   faqsTitle: "اکثر پوچھے گئے سوالات - PUBG UC ریچارج",
   faqs: [
-    { question: "میں آن لائن PUBG موبائل UC کیسے خرید سکتا ہوں؟", answer: "آپ Middasbuy پر PUBG UC ریچارج (پلیئر آئی ڈی سے ٹاپ اپ) یا آفیشل PUBG UC گفٹ کارڈز اور ریڈیم کوڈز خرید سکتے ہیں۔ بس اپنی پلیئر آئی ڈی درج کریں، UC پیکج منتخب کریں، اور فوری ڈیلیوری کے لیے ادائیگی مکمل کریں۔" },
-    { question: "PUBG UC کے لیے کون سا بہتر ہے: ریچارج یا ریڈیم کوڈ؟", answer: "ریچارج (ٹاپ اپ) عام طور پر سستا اور فوری ہوتا ہے، جبکہ ریڈیم کوڈز دوستوں کو UC تحفے میں دینے کے لیے بہتر ہیں۔ Middasbuy پر دونوں طریقے 100% آفیشل اور محفوظ ہیں۔" },
-    { question: "کیا کوئی آفیشل PUBG موبائل UC شاپ ہے؟", answer: "جی ہاں، Middasbuy ایک آفیشل PUBG UC ٹاپ اپ اور گفٹ کارڈ شاپ ہے جس پر دنیا بھر میں 20M+ گیمرز کا اعتماد ہے۔" },
+    { question: "میں آن لائن PUBG موبائل UC کیسے خرید سکتا ہوں؟", answer: "آپ midasbuy.lombuy پر PUBG UC ریچارج (پلیئر آئی ڈی سے ٹاپ اپ) یا آفیشل PUBG UC گفٹ کارڈز اور ریڈیم کوڈز خرید سکتے ہیں۔ بس اپنی پلیئر آئی ڈی درج کریں، UC پیکج منتخب کریں، اور فوری ڈیلیوری کے لیے ادائیگی مکمل کریں۔" },
+    { question: "PUBG UC کے لیے کون سا بہتر ہے: ریچارج یا ریڈیم کوڈ؟", answer: "ریچارج (ٹاپ اپ) عام طور پر سستا اور فوری ہوتا ہے، جبکہ ریڈیم کوڈز دوستوں کو UC تحفے میں دینے کے لیے بہتر ہیں۔ midasbuy.lombuy پر دونوں طریقے 100% آفیشل اور محفوظ ہیں۔" },
+    { question: "کیا کوئی آفیشل PUBG موبائل UC شاپ ہے؟", answer: "جی ہاں، midasbuy.lombuy ایک آفیشل PUBG UC ٹاپ اپ اور گفٹ کارڈ شاپ ہے جس پر دنیا بھر میں 20M+ گیمرز کا اعتماد ہے۔" },
     { question: "ریچارج کے بعد PUBG UC ڈیلیوری کتنی تیز ہے؟", answer: "ٹاپ اپ آپ کے اکاؤنٹ میں فوری ہے (عام طور پر 1-5 منٹ کے اندر)، اور ریڈیم کوڈ ادائیگی کی تصدیق کے بعد فوری طور پر ای میل کے ذریعے بھیجا جاتا ہے۔" },
-    { question: "کیا Middasbuy سے PUBG UC خریدنا محفوظ ہے؟", answer: "جی ہاں، Middasbuy ایک آفیشل مجاز ڈسٹری بیوٹر ہے جس کے پاس محفوظ PUBG UC ریچارج، گفٹ کارڈز، خریدار تحفظ، اور 24/7 کسٹمر سپورٹ ہے۔" },
+    { question: "کیا midasbuy.lombuy سے PUBG UC خریدنا محفوظ ہے؟", answer: "جی ہاں، midasbuy.lombuy ایک آفیشل مجاز ڈسٹری بیوٹر ہے جس کے پاس محفوظ PUBG UC ریچارج، گفٹ کارڈز، خریدار تحفظ، اور 24/7 کسٹمر سپورٹ ہے۔" },
   ]
 };
 
 // Arabic
 const arabicContent: DescriptionContent = {
   mainTitle: "متجر PUBG Mobile UC – أرخص أكواد الاسترداد الرسمية والشحن",
-  mainDescription: "اشترِ PUBG Mobile UC من متجر Middasbuy الرسمي – الموزع الموثوق لـ PUBG Mobile والشريك العالمي. نبيع أكواد استرداد PUBG UC الرسمية 100% ونقدم أرخص شحن في العالم. اختر بين الشحن الفوري (شحن معرف اللاعب) أو أكواد بطاقات الهدايا الرسمية.",
+  mainDescription: "اشترِ PUBG Mobile UC من متجر midasbuy.lombuy الرسمي – الموزع الموثوق لـ PUBG Mobile والشريك العالمي. نبيع أكواد استرداد PUBG UC الرسمية 100% ونقدم أرخص شحن في العالم. اختر بين الشحن الفوري (شحن معرف اللاعب) أو أكواد بطاقات الهدايا الرسمية.",
   unlockTitle: "💎 ماذا يمكنك فتحه باستخدام PUBG UC؟",
   priceTableTitle: "💰 PUBG MOBILE UC (عالمي) – جدول الأسعار",
   howToBuyTitle: "📲 كيفية شراء PUBG UC (الشحن)",
@@ -285,7 +285,7 @@ const arabicContent: DescriptionContent = {
   codeDeliveryTitle: "🔄 تسليم الكود والصلاحية",
   paymentMethodsTitle: "💳 طرق الدفع",
   refundTitle: "🛡 الاسترداد وحماية المشتري",
-  whyBuyTitle: "⭐ لماذا تشتري من Middasbuy؟",
+  whyBuyTitle: "⭐ لماذا تشتري من midasbuy.lombuy؟",
   globalShopsTitle: "🌍 PUBG Mobile UC – جميع المتاجر",
   bestValueText: "🏆 أفضل قيمة – أرخص تكلفة لكل UC!",
   unlockables: [
@@ -301,7 +301,7 @@ const arabicContent: DescriptionContent = {
     "ادفع بأمان → يتم تسليم UC فوراً!"
   ],
   redeemSteps: [
-    "اشترِ كود استرداد PUBG UC الرسمي من Middasbuy",
+    "اشترِ كود استرداد PUBG UC الرسمي من midasbuy.lombuy",
     "قم بزيارة صفحة استرداد Midasbuy",
     "أدخل معرف اللاعب + الكود → يتم إضافة UC فوراً!"
   ],
@@ -317,7 +317,7 @@ const arabicContent: DescriptionContent = {
   ],
   refundPoints: [
     "أكواد PUBG UC رسمية 100% وغير مستخدمة",
-    "مشمولة بسياسة حماية المشتري من Middasbuy",
+    "مشمولة بسياسة حماية المشتري من midasbuy.lombuy",
     "دعم العملاء على مدار الساعة طوال الأسبوع"
   ],
   whyBuyPoints: [
@@ -341,18 +341,18 @@ const arabicContent: DescriptionContent = {
   },
   faqsTitle: "الأسئلة الشائعة - شحن PUBG UC",
   faqs: [
-    { question: "كيف يمكنني شراء PUBG Mobile UC عبر الإنترنت؟", answer: "يمكنك شراء شحن PUBG UC (الشحن بمعرف اللاعب) أو شراء بطاقات هدايا وأكواد استرداد PUBG UC الرسمية من Middasbuy. ببساطة أدخل معرف اللاعب، اختر حزمة UC، وأكمل الدفع للتسليم الفوري." },
-    { question: "أيهما أفضل لـ PUBG UC: الشحن أم كود الاسترداد؟", answer: "الشحن عادةً أرخص وفوري، بينما أكواد الاسترداد أفضل لإهداء UC للأصدقاء. كلا الطريقتين رسميتان 100% وآمنتان في Middasbuy." },
-    { question: "هل يوجد متجر PUBG Mobile UC رسمي؟", answer: "نعم، Middasbuy هو متجر شحن وبطاقات هدايا PUBG UC الرسمي الموثوق به من 20 مليون+ لاعب حول العالم." },
+    { question: "كيف يمكنني شراء PUBG Mobile UC عبر الإنترنت؟", answer: "يمكنك شراء شحن PUBG UC (الشحن بمعرف اللاعب) أو شراء بطاقات هدايا وأكواد استرداد PUBG UC الرسمية من midasbuy.lombuy. ببساطة أدخل معرف اللاعب، اختر حزمة UC، وأكمل الدفع للتسليم الفوري." },
+    { question: "أيهما أفضل لـ PUBG UC: الشحن أم كود الاسترداد؟", answer: "الشحن عادةً أرخص وفوري، بينما أكواد الاسترداد أفضل لإهداء UC للأصدقاء. كلا الطريقتين رسميتان 100% وآمنتان في midasbuy.lombuy." },
+    { question: "هل يوجد متجر PUBG Mobile UC رسمي؟", answer: "نعم، midasbuy.lombuy هو متجر شحن وبطاقات هدايا PUBG UC الرسمي الموثوق به من 20 مليون+ لاعب حول العالم." },
     { question: "ما سرعة تسليم PUBG UC بعد الشحن؟", answer: "الشحن فوري لحسابك (عادةً خلال 1-5 دقائق)، ويتم إرسال كود الاسترداد فوراً عبر البريد الإلكتروني بعد تأكيد الدفع." },
-    { question: "هل شراء PUBG UC من Middasbuy آمن؟", answer: "نعم، Middasbuy موزع رسمي معتمد مع شحن PUBG UC آمن، بطاقات هدايا، حماية المشتري، ودعم العملاء على مدار الساعة." },
+    { question: "هل شراء PUBG UC من midasbuy.lombuy آمن؟", answer: "نعم، midasbuy.lombuy موزع رسمي معتمد مع شحن PUBG UC آمن، بطاقات هدايا، حماية المشتري، ودعم العملاء على مدار الساعة." },
   ]
 };
 
 // Japanese
 const japaneseContent: DescriptionContent = {
   mainTitle: "PUBG Mobile UCショップ – 最安値の公式リディームコード＆チャージ",
-  mainDescription: "公式Middasbuy PUBG UCショップでPUBG Mobile UC（アンノウンキャッシュ）を購入 – PUBG Mobileの信頼できる販売代理店およびグローバルパートナー。100%公式PUBG UCリディームコードを販売し、世界最安値のチャージを提供。即時トップアップ（プレイヤーIDチャージ）または公式ギフトカードコードから選択、700以上の安全な支払い方法と123以上の通貨で即時配信。",
+  mainDescription: "公式midasbuy.lombuy PUBG UCショップでPUBG Mobile UC（アンノウンキャッシュ）を購入 – PUBG Mobileの信頼できる販売代理店およびグローバルパートナー。100%公式PUBG UCリディームコードを販売し、世界最安値のチャージを提供。即時トップアップ（プレイヤーIDチャージ）または公式ギフトカードコードから選択、700以上の安全な支払い方法と123以上の通貨で即時配信。",
   unlockTitle: "💎 PUBG UCで何がアンロックできる？",
   priceTableTitle: "💰 PUBG MOBILE UC（グローバル） – 価格表",
   howToBuyTitle: "📲 PUBG UCの購入方法（チャージ）",
@@ -361,7 +361,7 @@ const japaneseContent: DescriptionContent = {
   codeDeliveryTitle: "🔄 コード配信と有効期限",
   paymentMethodsTitle: "💳 支払い方法",
   refundTitle: "🛡 返金とバイヤープロテクション",
-  whyBuyTitle: "⭐ なぜMiddasbuyで購入？",
+  whyBuyTitle: "⭐ なぜmidasbuy.lombuyで購入？",
   globalShopsTitle: "🌍 PUBG Mobile UC – 全ショップ",
   bestValueText: "🏆 最高のバリュー – UC単価最安値！",
   unlockables: [
@@ -377,7 +377,7 @@ const japaneseContent: DescriptionContent = {
     "安全に支払い → UCが即時配信！"
   ],
   redeemSteps: [
-    "Middasbuyで公式PUBG UCリディームコードを購入",
+    "midasbuy.lombuyで公式PUBG UCリディームコードを購入",
     "Midasbuyリディームページにアクセス",
     "プレイヤーID + コードを入力 → UCが即時クレジット！"
   ],
@@ -393,7 +393,7 @@ const japaneseContent: DescriptionContent = {
   ],
   refundPoints: [
     "100%公式＆未使用のPUBG UCコード",
-    "Middasbuyバイヤープロテクションポリシー適用",
+    "midasbuy.lombuyバイヤープロテクションポリシー適用",
     "24時間年中無休のカスタマーサポート"
   ],
   whyBuyPoints: [
@@ -417,18 +417,18 @@ const japaneseContent: DescriptionContent = {
   },
   faqsTitle: "よくある質問 - PUBG UCチャージ",
   faqs: [
-    { question: "オンラインでPUBG Mobile UCを購入するには？", answer: "MiddasbuyでPUBG UCチャージ（プレイヤーIDでトップアップ）または公式PUBG UCギフトカード＆リディームコードを購入できます。プレイヤーIDを入力し、UCパッケージを選択して、即時配信のために支払いを完了してください。" },
-    { question: "PUBG UCにはチャージとリディームコードどちらがいい？", answer: "チャージ（トップアップ）は通常より安く即時ですが、リディームコードは友達にUCをプレゼントするのに適しています。Middasbuyでは両方とも100%公式で安全です。" },
-    { question: "公式PUBG Mobile UCショップはありますか？", answer: "はい、Middasbuyは世界中の2000万人以上のゲーマーに信頼されている公式PUBG UCトップアップ＆ギフトカードショップです。" },
+    { question: "オンラインでPUBG Mobile UCを購入するには？", answer: "midasbuy.lombuyでPUBG UCチャージ（プレイヤーIDでトップアップ）または公式PUBG UCギフトカード＆リディームコードを購入できます。プレイヤーIDを入力し、UCパッケージを選択して、即時配信のために支払いを完了してください。" },
+    { question: "PUBG UCにはチャージとリディームコードどちらがいい？", answer: "チャージ（トップアップ）は通常より安く即時ですが、リディームコードは友達にUCをプレゼントするのに適しています。midasbuy.lombuyでは両方とも100%公式で安全です。" },
+    { question: "公式PUBG Mobile UCショップはありますか？", answer: "はい、midasbuy.lombuyは世界中の2000万人以上のゲーマーに信頼されている公式PUBG UCトップアップ＆ギフトカードショップです。" },
     { question: "チャージ後のPUBG UC配信はどれくらい速い？", answer: "トップアップはあなたのアカウントに即時（通常1-5分以内）、リディームコードは支払い確認後すぐにメールで送信されます。" },
-    { question: "MiddasbuyからPUBG UCを購入するのは安全？", answer: "はい、Middasbuyは安全なPUBG UCチャージ、ギフトカード、バイヤープロテクション、24時間年中無休のカスタマーサポートを提供する公式認定販売代理店です。" },
+    { question: "midasbuy.lombuyからPUBG UCを購入するのは安全？", answer: "はい、midasbuy.lombuyは安全なPUBG UCチャージ、ギフトカード、バイヤープロテクション、24時間年中無休のカスタマーサポートを提供する公式認定販売代理店です。" },
   ]
 };
 
 // Russian
 const russianContent: DescriptionContent = {
   mainTitle: "Магазин PUBG Mobile UC – Самые дешевые официальные коды и пополнение",
-  mainDescription: "Покупайте PUBG Mobile UC в официальном магазине Middasbuy PUBG UC – надежный дистрибьютор PUBG Mobile и глобальный партнер. Мы продаем 100% официальные коды погашения PUBG UC и предлагаем самое дешевое пополнение в мире. Выбирайте между мгновенным пополнением (по ID игрока) или официальными подарочными картами.",
+  mainDescription: "Покупайте PUBG Mobile UC в официальном магазине midasbuy.lombuy PUBG UC – надежный дистрибьютор PUBG Mobile и глобальный партнер. Мы продаем 100% официальные коды погашения PUBG UC и предлагаем самое дешевое пополнение в мире. Выбирайте между мгновенным пополнением (по ID игрока) или официальными подарочными картами.",
   unlockTitle: "💎 Что можно разблокировать с PUBG UC?",
   priceTableTitle: "💰 PUBG MOBILE UC (ГЛОБАЛЬНЫЙ) – ТАБЛИЦА ЦЕН",
   howToBuyTitle: "📲 Как купить PUBG UC (Пополнение)",
@@ -437,7 +437,7 @@ const russianContent: DescriptionContent = {
   codeDeliveryTitle: "🔄 Доставка кода и срок действия",
   paymentMethodsTitle: "💳 Способы оплаты",
   refundTitle: "🛡 Возврат и защита покупателя",
-  whyBuyTitle: "⭐ Почему покупать у Middasbuy?",
+  whyBuyTitle: "⭐ Почему покупать у midasbuy.lombuy?",
   globalShopsTitle: "🌍 PUBG Mobile UC – Все магазины",
   bestValueText: "🏆 Лучшее соотношение цены – самая низкая стоимость за UC!",
   unlockables: [
@@ -453,7 +453,7 @@ const russianContent: DescriptionContent = {
     "Оплатите безопасно → UC доставлен мгновенно!"
   ],
   redeemSteps: [
-    "Купите официальный код погашения PUBG UC на Middasbuy",
+    "Купите официальный код погашения PUBG UC на midasbuy.lombuy",
     "Перейдите на страницу погашения Midasbuy",
     "Введите ID игрока + код → UC зачислен мгновенно!"
   ],
@@ -469,7 +469,7 @@ const russianContent: DescriptionContent = {
   ],
   refundPoints: [
     "100% официальные и неиспользованные коды PUBG UC",
-    "Покрыты политикой защиты покупателя Middasbuy",
+    "Покрыты политикой защиты покупателя midasbuy.lombuy",
     "Поддержка клиентов 24/7"
   ],
   whyBuyPoints: [
@@ -493,18 +493,18 @@ const russianContent: DescriptionContent = {
   },
   faqsTitle: "Часто задаваемые вопросы - Пополнение PUBG UC",
   faqs: [
-    { question: "Как купить PUBG Mobile UC онлайн?", answer: "Вы можете купить пополнение PUBG UC (по ID игрока) или официальные подарочные карты и коды погашения PUBG UC на Middasbuy. Просто введите ID игрока, выберите пакет UC и завершите оплату для мгновенной доставки." },
-    { question: "Что лучше для PUBG UC: Пополнение или Код погашения?", answer: "Пополнение обычно дешевле и мгновенное, а коды погашения лучше для подарка UC друзьям. Оба метода 100% официальные и безопасные на Middasbuy." },
-    { question: "Есть ли официальный магазин PUBG Mobile UC?", answer: "Да, Middasbuy – официальный магазин пополнения и подарочных карт PUBG UC, которому доверяют 20 млн+ геймеров по всему миру." },
+    { question: "Как купить PUBG Mobile UC онлайн?", answer: "Вы можете купить пополнение PUBG UC (по ID игрока) или официальные подарочные карты и коды погашения PUBG UC на midasbuy.lombuy. Просто введите ID игрока, выберите пакет UC и завершите оплату для мгновенной доставки." },
+    { question: "Что лучше для PUBG UC: Пополнение или Код погашения?", answer: "Пополнение обычно дешевле и мгновенное, а коды погашения лучше для подарка UC друзьям. Оба метода 100% официальные и безопасные на midasbuy.lombuy." },
+    { question: "Есть ли официальный магазин PUBG Mobile UC?", answer: "Да, midasbuy.lombuy – официальный магазин пополнения и подарочных карт PUBG UC, которому доверяют 20 млн+ геймеров по всему миру." },
     { question: "Как быстро доставляется PUBG UC после пополнения?", answer: "Пополнение мгновенное на ваш аккаунт (обычно 1-5 минут), код погашения отправляется по email сразу после подтверждения оплаты." },
-    { question: "Безопасно ли покупать PUBG UC у Middasbuy?", answer: "Да, Middasbuy – официальный авторизованный дистрибьютор с безопасным пополнением PUBG UC, подарочными картами, защитой покупателя и поддержкой 24/7." },
+    { question: "Безопасно ли покупать PUBG UC у midasbuy.lombuy?", answer: "Да, midasbuy.lombuy – официальный авторизованный дистрибьютор с безопасным пополнением PUBG UC, подарочными картами, защитой покупателя и поддержкой 24/7." },
   ]
 };
 
 // Turkish
 const turkishContent: DescriptionContent = {
   mainTitle: "PUBG Mobile UC Mağazası – En Ucuz Resmi Kod ve Yükleme",
-  mainDescription: "Resmi Middasbuy PUBG UC Mağazası'ndan PUBG Mobile UC satın alın – güvenilir PUBG Mobile distribütörü ve global ortak. %100 resmi PUBG UC kodları satıyor ve dünya genelinde en ucuz yüklemeyi sunuyoruz. Anında yükleme (Oyuncu ID ile) veya resmi hediye kartı kodları arasından seçin.",
+  mainDescription: "Resmi midasbuy.lombuy PUBG UC Mağazası'ndan PUBG Mobile UC satın alın – güvenilir PUBG Mobile distribütörü ve global ortak. %100 resmi PUBG UC kodları satıyor ve dünya genelinde en ucuz yüklemeyi sunuyoruz. Anında yükleme (Oyuncu ID ile) veya resmi hediye kartı kodları arasından seçin.",
   unlockTitle: "💎 PUBG UC ile Neler Açabilirsiniz?",
   priceTableTitle: "💰 PUBG MOBILE UC (GLOBAL) – FİYAT TABLOSU",
   howToBuyTitle: "📲 PUBG UC Nasıl Satın Alınır (Yükleme)",
@@ -513,7 +513,7 @@ const turkishContent: DescriptionContent = {
   codeDeliveryTitle: "🔄 Kod Teslimatı ve Geçerlilik",
   paymentMethodsTitle: "💳 Ödeme Yöntemleri",
   refundTitle: "🛡 İade ve Alıcı Koruması",
-  whyBuyTitle: "⭐ Neden Middasbuy'dan Satın Almalısınız?",
+  whyBuyTitle: "⭐ Neden midasbuy.lombuy'dan Satın Almalısınız?",
   globalShopsTitle: "🌍 PUBG Mobile UC – Tüm Mağazalar",
   bestValueText: "🏆 En iyi değer paketi – UC başına en düşük maliyet!",
   unlockables: [
@@ -529,7 +529,7 @@ const turkishContent: DescriptionContent = {
     "Güvenli ödeme yapın → UC anında teslim!"
   ],
   redeemSteps: [
-    "Middasbuy'dan resmi PUBG UC kodu satın alın",
+    "midasbuy.lombuy'dan resmi PUBG UC kodu satın alın",
     "Midasbuy Kullanım sayfasını ziyaret edin",
     "Oyuncu ID + kod girin → UC anında yüklenir!"
   ],
@@ -545,7 +545,7 @@ const turkishContent: DescriptionContent = {
   ],
   refundPoints: [
     "%100 resmi ve kullanılmamış PUBG UC kodları",
-    "Middasbuy Alıcı Koruma Politikası kapsamında",
+    "midasbuy.lombuy Alıcı Koruma Politikası kapsamında",
     "Her türlü sorun için 7/24 müşteri desteği"
   ],
   whyBuyPoints: [
@@ -569,18 +569,18 @@ const turkishContent: DescriptionContent = {
   },
   faqsTitle: "Sıkça Sorulan Sorular - PUBG UC Yükleme",
   faqs: [
-    { question: "Online PUBG Mobile UC nasıl satın alabilirim?", answer: "Middasbuy'da PUBG UC Yükleme (Oyuncu ID ile) veya resmi PUBG UC Hediye Kartları ve Kullanım Kodları satın alabilirsiniz. Oyuncu ID'nizi girin, UC paketinizi seçin ve anında teslimat için ödemeyi tamamlayın." },
-    { question: "PUBG UC için hangisi daha iyi: Yükleme mi Kullanım Kodu mu?", answer: "Yükleme genellikle daha ucuz ve anında, Kullanım Kodları ise arkadaşlara UC hediye etmek için daha iyi. Her iki yöntem de Middasbuy'da %100 resmi ve güvenlidir." },
-    { question: "Resmi PUBG Mobile UC Mağazası var mı?", answer: "Evet, Middasbuy dünya genelinde 20M+ oyuncu tarafından güvenilen resmi PUBG UC Yükleme ve Hediye Kartı Mağazasıdır." },
+    { question: "Online PUBG Mobile UC nasıl satın alabilirim?", answer: "midasbuy.lombuy'da PUBG UC Yükleme (Oyuncu ID ile) veya resmi PUBG UC Hediye Kartları ve Kullanım Kodları satın alabilirsiniz. Oyuncu ID'nizi girin, UC paketinizi seçin ve anında teslimat için ödemeyi tamamlayın." },
+    { question: "PUBG UC için hangisi daha iyi: Yükleme mi Kullanım Kodu mu?", answer: "Yükleme genellikle daha ucuz ve anında, Kullanım Kodları ise arkadaşlara UC hediye etmek için daha iyi. Her iki yöntem de midasbuy.lombuy'da %100 resmi ve güvenlidir." },
+    { question: "Resmi PUBG Mobile UC Mağazası var mı?", answer: "Evet, midasbuy.lombuy dünya genelinde 20M+ oyuncu tarafından güvenilen resmi PUBG UC Yükleme ve Hediye Kartı Mağazasıdır." },
     { question: "Yüklemeden sonra PUBG UC teslimatı ne kadar hızlı?", answer: "Yükleme hesabınıza anında (genellikle 1-5 dakika içinde), Kullanım Kodu ödeme onayından sonra hemen e-posta ile gönderilir." },
-    { question: "Middasbuy'dan PUBG UC satın almak güvenli mi?", answer: "Evet, Middasbuy güvenli PUBG UC Yükleme, Hediye Kartları, Alıcı Koruması ve 7/24 müşteri desteği sunan resmi yetkili distribütördür." },
+    { question: "midasbuy.lombuy'dan PUBG UC satın almak güvenli mi?", answer: "Evet, midasbuy.lombuy güvenli PUBG UC Yükleme, Hediye Kartları, Alıcı Koruması ve 7/24 müşteri desteği sunan resmi yetkili distribütördür." },
   ]
 };
 
 // Indonesian
 const indonesianContent: DescriptionContent = {
   mainTitle: "Toko PUBG Mobile UC – Kode Redeem & Top Up Resmi Termurah",
-  mainDescription: "Beli PUBG Mobile UC di Toko PUBG UC Middasbuy resmi – distributor PUBG Mobile terpercaya dan mitra global. Kami menjual kode redeem PUBG UC 100% resmi dan menyediakan top up termurah di seluruh dunia. Pilih antara top up instan (isi ulang ID Pemain) atau kode kartu hadiah resmi.",
+  mainDescription: "Beli PUBG Mobile UC di Toko PUBG UC midasbuy.lombuy resmi – distributor PUBG Mobile terpercaya dan mitra global. Kami menjual kode redeem PUBG UC 100% resmi dan menyediakan top up termurah di seluruh dunia. Pilih antara top up instan (isi ulang ID Pemain) atau kode kartu hadiah resmi.",
   unlockTitle: "💎 Apa yang Bisa Dibuka dengan PUBG UC?",
   priceTableTitle: "💰 PUBG MOBILE UC (GLOBAL) – TABEL HARGA",
   howToBuyTitle: "📲 Cara Membeli PUBG UC (Top Up)",
@@ -589,7 +589,7 @@ const indonesianContent: DescriptionContent = {
   codeDeliveryTitle: "🔄 Pengiriman Kode & Validitas",
   paymentMethodsTitle: "💳 Metode Pembayaran",
   refundTitle: "🛡 Pengembalian Dana & Perlindungan Pembeli",
-  whyBuyTitle: "⭐ Mengapa Membeli dari Middasbuy?",
+  whyBuyTitle: "⭐ Mengapa Membeli dari midasbuy.lombuy?",
   globalShopsTitle: "🌍 PUBG Mobile UC – Semua Toko",
   bestValueText: "🏆 Nilai terbaik – biaya per UC termurah!",
   unlockables: [
@@ -605,7 +605,7 @@ const indonesianContent: DescriptionContent = {
     "Bayar dengan aman → UC terkirim instan!"
   ],
   redeemSteps: [
-    "Beli kode redeem PUBG UC resmi di Middasbuy",
+    "Beli kode redeem PUBG UC resmi di midasbuy.lombuy",
     "Kunjungi halaman Redeem Midasbuy",
     "Masukkan ID Pemain + kode → UC langsung dikreditkan!"
   ],
@@ -621,7 +621,7 @@ const indonesianContent: DescriptionContent = {
   ],
   refundPoints: [
     "Kode PUBG UC 100% resmi & belum digunakan",
-    "Dilindungi oleh Kebijakan Perlindungan Pembeli Middasbuy",
+    "Dilindungi oleh Kebijakan Perlindungan Pembeli midasbuy.lombuy",
     "Dukungan pelanggan 24/7 untuk masalah apa pun"
   ],
   whyBuyPoints: [
@@ -645,18 +645,18 @@ const indonesianContent: DescriptionContent = {
   },
   faqsTitle: "Pertanyaan yang Sering Diajukan - Top Up PUBG UC",
   faqs: [
-    { question: "Bagaimana cara membeli PUBG Mobile UC online?", answer: "Anda bisa membeli Top Up PUBG UC (berdasarkan ID Pemain) atau membeli Kartu Hadiah & Kode Redeem PUBG UC resmi di Middasbuy. Cukup masukkan ID Pemain, pilih paket UC, dan selesaikan pembayaran untuk pengiriman instan." },
-    { question: "Mana yang lebih baik untuk PUBG UC: Top Up atau Kode Redeem?", answer: "Top Up biasanya lebih murah dan instan, sedangkan Kode Redeem lebih baik untuk menghadiahkan UC ke teman. Kedua metode 100% resmi dan aman di Middasbuy." },
-    { question: "Apakah ada Toko PUBG Mobile UC resmi?", answer: "Ya, Middasbuy adalah Toko Top Up & Kartu Hadiah PUBG UC resmi yang dipercaya oleh 20 juta+ gamer di seluruh dunia." },
+    { question: "Bagaimana cara membeli PUBG Mobile UC online?", answer: "Anda bisa membeli Top Up PUBG UC (berdasarkan ID Pemain) atau membeli Kartu Hadiah & Kode Redeem PUBG UC resmi di midasbuy.lombuy. Cukup masukkan ID Pemain, pilih paket UC, dan selesaikan pembayaran untuk pengiriman instan." },
+    { question: "Mana yang lebih baik untuk PUBG UC: Top Up atau Kode Redeem?", answer: "Top Up biasanya lebih murah dan instan, sedangkan Kode Redeem lebih baik untuk menghadiahkan UC ke teman. Kedua metode 100% resmi dan aman di midasbuy.lombuy." },
+    { question: "Apakah ada Toko PUBG Mobile UC resmi?", answer: "Ya, midasbuy.lombuy adalah Toko Top Up & Kartu Hadiah PUBG UC resmi yang dipercaya oleh 20 juta+ gamer di seluruh dunia." },
     { question: "Seberapa cepat pengiriman PUBG UC setelah Top Up?", answer: "Top Up instan ke akun Anda (biasanya dalam 1-5 menit), dan Kode Redeem dikirim langsung via email setelah konfirmasi pembayaran." },
-    { question: "Apakah aman membeli PUBG UC dari Middasbuy?", answer: "Ya, Middasbuy adalah distributor resmi yang sah dengan Top Up PUBG UC aman, Kartu Hadiah, Perlindungan Pembeli, dan dukungan pelanggan 24/7." },
+    { question: "Apakah aman membeli PUBG UC dari midasbuy.lombuy?", answer: "Ya, midasbuy.lombuy adalah distributor resmi yang sah dengan Top Up PUBG UC aman, Kartu Hadiah, Perlindungan Pembeli, dan dukungan pelanggan 24/7." },
   ]
 };
 
 // Hindi
 const hindiContent: DescriptionContent = {
   mainTitle: "PUBG Mobile UC शॉप – सबसे सस्ते आधिकारिक रिडीम कोड और रिचार्ज",
-  mainDescription: "आधिकारिक Middasbuy PUBG UC शॉप से PUBG Mobile UC खरीदें – विश्वसनीय PUBG Mobile डिस्ट्रीब्यूटर और ग्लोबल पार्टनर। हम 100% आधिकारिक PUBG UC रिडीम कोड बेचते हैं और दुनिया भर में सबसे सस्ता रिचार्ज प्रदान करते हैं। इंस्टेंट टॉप-अप (प्लेयर आईडी रिचार्ज) या आधिकारिक गिफ्ट कार्ड कोड में से चुनें।",
+  mainDescription: "आधिकारिक midasbuy.lombuy PUBG UC शॉप से PUBG Mobile UC खरीदें – विश्वसनीय PUBG Mobile डिस्ट्रीब्यूटर और ग्लोबल पार्टनर। हम 100% आधिकारिक PUBG UC रिडीम कोड बेचते हैं और दुनिया भर में सबसे सस्ता रिचार्ज प्रदान करते हैं। इंस्टेंट टॉप-अप (प्लेयर आईडी रिचार्ज) या आधिकारिक गिफ्ट कार्ड कोड में से चुनें।",
   unlockTitle: "💎 PUBG UC से क्या अनलॉक कर सकते हैं?",
   priceTableTitle: "💰 PUBG MOBILE UC (ग्लोबल) – मूल्य सूची",
   howToBuyTitle: "📲 PUBG UC कैसे खरीदें (रिचार्ज)",
@@ -665,7 +665,7 @@ const hindiContent: DescriptionContent = {
   codeDeliveryTitle: "🔄 कोड डिलीवरी और वैधता",
   paymentMethodsTitle: "💳 भुगतान के तरीके",
   refundTitle: "🛡 रिफंड और खरीदार सुरक्षा",
-  whyBuyTitle: "⭐ Middasbuy से क्यों खरीदें?",
+  whyBuyTitle: "⭐ midasbuy.lombuy से क्यों खरीदें?",
   globalShopsTitle: "🌍 PUBG Mobile UC – सभी शॉप्स",
   bestValueText: "🏆 सर्वोत्तम मूल्य – प्रति UC सबसे कम लागत!",
   unlockables: [
@@ -681,7 +681,7 @@ const hindiContent: DescriptionContent = {
     "सुरक्षित भुगतान करें → UC तुरंत डिलीवर!"
   ],
   redeemSteps: [
-    "Middasbuy पर आधिकारिक PUBG UC रिडीम कोड खरीदें",
+    "midasbuy.lombuy पर आधिकारिक PUBG UC रिडीम कोड खरीदें",
     "Midasbuy रिडीम पेज पर जाएं",
     "प्लेयर आईडी + कोड दर्ज करें → UC तुरंत क्रेडिट!"
   ],
@@ -697,7 +697,7 @@ const hindiContent: DescriptionContent = {
   ],
   refundPoints: [
     "100% आधिकारिक और अप्रयुक्त PUBG UC कोड",
-    "Middasbuy खरीदार सुरक्षा नीति द्वारा कवर",
+    "midasbuy.lombuy खरीदार सुरक्षा नीति द्वारा कवर",
     "किसी भी समस्या के लिए 24/7 ग्राहक सहायता"
   ],
   whyBuyPoints: [
@@ -721,11 +721,11 @@ const hindiContent: DescriptionContent = {
   },
   faqsTitle: "अक्सर पूछे जाने वाले प्रश्न - PUBG UC रिचार्ज",
   faqs: [
-    { question: "ऑनलाइन PUBG Mobile UC कैसे खरीद सकता हूं?", answer: "आप Middasbuy पर PUBG UC रिचार्ज (प्लेयर आईडी द्वारा टॉप-अप) या आधिकारिक PUBG UC गिफ्ट कार्ड और रिडीम कोड खरीद सकते हैं। बस अपनी प्लेयर आईडी दर्ज करें, UC पैकेज चुनें, और तुरंत डिलीवरी के लिए भुगतान पूरा करें।" },
-    { question: "PUBG UC के लिए कौन सा बेहतर है: रिचार्ज या रिडीम कोड?", answer: "रिचार्ज आमतौर पर सस्ता और तुरंत होता है, जबकि रिडीम कोड दोस्तों को UC गिफ्ट करने के लिए बेहतर हैं। Middasbuy पर दोनों तरीके 100% आधिकारिक और सुरक्षित हैं।" },
-    { question: "क्या कोई आधिकारिक PUBG Mobile UC शॉप है?", answer: "हां, Middasbuy एक आधिकारिक PUBG UC टॉप-अप और गिफ्ट कार्ड शॉप है जिस पर दुनिया भर में 20M+ गेमर्स का भरोसा है।" },
+    { question: "ऑनलाइन PUBG Mobile UC कैसे खरीद सकता हूं?", answer: "आप midasbuy.lombuy पर PUBG UC रिचार्ज (प्लेयर आईडी द्वारा टॉप-अप) या आधिकारिक PUBG UC गिफ्ट कार्ड और रिडीम कोड खरीद सकते हैं। बस अपनी प्लेयर आईडी दर्ज करें, UC पैकेज चुनें, और तुरंत डिलीवरी के लिए भुगतान पूरा करें।" },
+    { question: "PUBG UC के लिए कौन सा बेहतर है: रिचार्ज या रिडीम कोड?", answer: "रिचार्ज आमतौर पर सस्ता और तुरंत होता है, जबकि रिडीम कोड दोस्तों को UC गिफ्ट करने के लिए बेहतर हैं। midasbuy.lombuy पर दोनों तरीके 100% आधिकारिक और सुरक्षित हैं।" },
+    { question: "क्या कोई आधिकारिक PUBG Mobile UC शॉप है?", answer: "हां, midasbuy.lombuy एक आधिकारिक PUBG UC टॉप-अप और गिफ्ट कार्ड शॉप है जिस पर दुनिया भर में 20M+ गेमर्स का भरोसा है।" },
     { question: "रिचार्ज के बाद PUBG UC डिलीवरी कितनी तेज है?", answer: "टॉप-अप आपके अकाउंट में तुरंत है (आमतौर पर 1-5 मिनट के भीतर), और रिडीम कोड भुगतान पुष्टि के बाद तुरंत ईमेल द्वारा भेजा जाता है।" },
-    { question: "क्या Middasbuy से PUBG UC खरीदना सुरक्षित है?", answer: "हां, Middasbuy एक आधिकारिक अधिकृत डिस्ट्रीब्यूटर है जिसके पास सुरक्षित PUBG UC रिचार्ज, गिफ्ट कार्ड, खरीदार सुरक्षा और 24/7 ग्राहक सहायता है।" },
+    { question: "क्या midasbuy.lombuy से PUBG UC खरीदना सुरक्षित है?", answer: "हां, midasbuy.lombuy एक आधिकारिक अधिकृत डिस्ट्रीब्यूटर है जिसके पास सुरक्षित PUBG UC रिचार्ज, गिफ्ट कार्ड, खरीदार सुरक्षा और 24/7 ग्राहक सहायता है।" },
   ]
 };
 

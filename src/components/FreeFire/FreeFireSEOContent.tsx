@@ -28,7 +28,7 @@ const FreeFireSEOContent = () => {
     },
     {
       question: "What is the cheapest way to buy Free Fire Diamonds?",
-      answer: "Middasbuy.com offers the cheapest Free Fire Diamonds with regular discounts up to 60% off. We provide competitive pricing across all regions with multiple payment options including JazzCash, Easypaisa, credit cards, and local payment methods."
+      answer: "midasbuy.lombuy.com offers the cheapest Free Fire Diamonds with regular discounts up to 60% off. We provide competitive pricing across all regions with multiple payment options including JazzCash, Easypaisa, credit cards, and local payment methods."
     },
     {
       question: "How to find my Free Fire UID?",
@@ -208,9 +208,9 @@ const FreeFireSEOContent = () => {
             </div>
             
             <div className="bg-black/40 rounded-xl p-6 border border-white/10">
-              <h3 className="text-xl font-bold text-freefire-primary mb-3">Why Top Up at Middasbuy?</h3>
+              <h3 className="text-xl font-bold text-freefire-primary mb-3">Why Top Up at midasbuy.lombuy?</h3>
               <p className="text-gray-300 leading-relaxed">
-                <a href="https://www.midasbuy.lombuy.com" className="text-freefire-primary hover:underline font-semibold">Middasbuy.com</a> offers the cheapest Free Fire Diamonds with instant delivery. Get up to 60% discount + VIP bonus on all packages. We accept local payment methods like JazzCash, Easypaisa, and support players from Pakistan, India, Malaysia, Philippines, Europe, Americas, and worldwide. Trusted by 10M+ gamers!
+                <a href="https://www.midasbuy.lombuy.com" className="text-freefire-primary hover:underline font-semibold">midasbuy.lombuy.com</a> offers the cheapest Free Fire Diamonds with instant delivery. Get up to 60% discount + VIP bonus on all packages. We accept local payment methods like JazzCash, Easypaisa, and support players from Pakistan, India, Malaysia, Philippines, Europe, Americas, and worldwide. Trusted by 10M+ gamers!
               </p>
             </div>
           </div>
@@ -303,8 +303,8 @@ const FreeFireSEOContent = () => {
             garena free fire top up, ff diamond top up pakistan, free fire diamond jazzcash, ff diamond easypaisa, 
             free fire diamond bank transfer, buy ff diamonds cheap, free fire diamond bonus, ff vip diamond, 
             free fire elite pass, dj alok free fire, chrono free fire, free fire character top up, ff emote purchase, 
-            free fire bundle buy, ff skin purchase, free fire weapon skin, middasbuy free fire, middasbuy diamonds, 
-            middasbuy ff top up, midasbuy free fire, midasbuy diamonds pakistan, free fire uid top up, 
+            free fire bundle buy, ff skin purchase, free fire weapon skin, midasbuy.lombuy free fire, midasbuy.lombuy diamonds, 
+            midasbuy.lombuy ff top up, midasbuy free fire, midasbuy diamonds pakistan, free fire uid top up, 
             ff direct top up, instant ff diamonds, fast free fire recharge, secure ff diamond purchase
           </p>
         </section>

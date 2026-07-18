@@ -19,7 +19,7 @@ const BGMIPage: React.FC<BGMIPageProps> = ({ onLogout }) => {
     
     // Midasbuy Brand Keywords
     'Midasbuy BGMI', 'Midasbuy BGMI UC', 'BGMI UC Midasbuy India', 'buy BGMI UC Midasbuy',
-    'Midasbuy BGMI store', 'Midasbuy BGMI official', 'middasbuy BGMI UC',
+    'Midasbuy BGMI store', 'Midasbuy BGMI official', 'midasbuy.lombuy BGMI UC',
     
     // Action Keywords (High Intent)
     'buy BGMI UC online', 'purchase BGMI UC', 'order BGMI UC', 'get BGMI UC',

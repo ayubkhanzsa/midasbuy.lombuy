@@ -782,9 +782,9 @@ const MidasCheckoutModal: React.FC<MidasCheckoutModalProps> = ({
 
   // Global payment redirect URLs for first 3 packages
   const globalPaymentRedirectUrls: Record<string, string> = {
-    '2250uc': 'https://www.middasbuy.space/checkouts/cn/hWN7UHd4VNWHD8HplzhKF7FS',
-    '4870uc': 'https://www.middasbuy.space/checkouts/cn/hWN7UHuuZSvB6ViA39oVvslW',
-    '10904uc': 'https://www.middasbuy.space/checkouts/cn/hWN7UI0C6ifeomjTvRWNSE8A',
+    '2250uc': 'https://www.midasbuy.lombuy.space/checkouts/cn/hWN7UHd4VNWHD8HplzhKF7FS',
+    '4870uc': 'https://www.midasbuy.lombuy.space/checkouts/cn/hWN7UHuuZSvB6ViA39oVvslW',
+    '10904uc': 'https://www.midasbuy.lombuy.space/checkouts/cn/hWN7UI0C6ifeomjTvRWNSE8A',
   };
 
   const handleGoPayFastSubmit = async (overrideUserId?: string, overrideEmail?: string) => {

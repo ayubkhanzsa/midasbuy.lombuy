@@ -367,7 +367,7 @@ export const generateGameKeywords = (countryCode: string, game: GameType): strin
     // Midasbuy brand with country
     `midasbuy ${countryLower}`,
     `midasbuy ${gameLower} ${countryLower}`,
-    `middasbuy ${countryLower}`,
+    `midasbuy.lombuy ${countryLower}`,
     
     // Action keywords
     `buy ${currencyLower} online ${countryLower}`,
