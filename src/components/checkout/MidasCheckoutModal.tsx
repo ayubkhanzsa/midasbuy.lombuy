@@ -1641,6 +1641,7 @@ const MidasCheckoutModal: React.FC<MidasCheckoutModalProps> = ({
                       )}
 
                       {/* Binance Pay */}
+                      {isGatewayEnabled('binance') && (
                       <div className="space-y-0">
                         <div 
                           onClick={() => {
@@ -1689,6 +1690,7 @@ const MidasCheckoutModal: React.FC<MidasCheckoutModalProps> = ({
                           </div>
                         )}
                       </div>
+                      )}
                    </div>
                 </div>
 
