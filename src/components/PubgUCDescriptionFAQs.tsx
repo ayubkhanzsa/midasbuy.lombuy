@@ -264,7 +264,7 @@ const PubgUCDescriptionFAQs = () => {
                 </ul>
               </div>
 
-              {/* Why Buy From Middasbuy */}
+              {/* Why Buy From midasbuy.lombuy */}
               <div className="bg-gradient-to-r from-yellow-500/10 to-orange-500/10 rounded-2xl p-6 md:p-8 border border-yellow-500/30">
                 <h3 className="text-xl md:text-2xl font-bold text-yellow-400 mb-6 flex items-center gap-3">
                   {content.whyBuyTitle}

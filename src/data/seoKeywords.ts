@@ -6,8 +6,8 @@ export const PUBG_KEYWORDS = [
   // Midasbuy Brand Keywords (HIGH PRIORITY)
   "Midasbuy PUBG UC", "PUBG UC Midasbuy", "buy PUBG UC Midasbuy", "Midasbuy PUBG Mobile UC", "PUBG Mobile UC Midasbuy",
   "Midasbuy PUBG", "PUBG Midasbuy", "Midasbuy PUBG store", "PUBG UC official Midasbuy", "Midasbuy UC PUBG",
-  "Midasbuy PUBG UC cheap", "Midasbuy PUBG UC instant", "Midasbuy PUBG UC discount", "middasbuy pubg uc",
-  "middasbuy uc", "midasbuy official", "midasbuy store", "midasbuy gaming",
+  "Midasbuy PUBG UC cheap", "Midasbuy PUBG UC instant", "Midasbuy PUBG UC discount", "midasbuy.lombuy pubg uc",
+  "midasbuy.lombuy uc", "midasbuy official", "midasbuy store", "midasbuy gaming",
   
   // Action Keywords (High Intent)
   "buy pubg uc online", "purchase pubg uc", "order pubg uc", "get pubg uc",
@@ -108,7 +108,7 @@ export const FREE_FIRE_KEYWORDS = [
   "cheapest free fire diamonds", "free fire diamonds 2026", "ff diamond purchase", "free fire top up", "ff diamonds cheap",
   
   // Midasbuy Brand Keywords
-  "midasbuy free fire", "middasbuy ff diamonds", "midasbuy ff top up", "midasbuy garena", "midasbuy free fire diamonds",
+  "midasbuy free fire", "midasbuy.lombuy ff diamonds", "midasbuy ff top up", "midasbuy garena", "midasbuy free fire diamonds",
   "buy ff diamonds midasbuy", "free fire midasbuy official", "midasbuy ff store", "midasbuy diamond purchase",
   
   // Action Keywords (High Intent)
@@ -289,7 +289,7 @@ export const BGMI_KEYWORDS = [
   
   // Midasbuy Brand Keywords
   "Midasbuy BGMI", "Midasbuy BGMI UC", "BGMI UC Midasbuy India", "buy BGMI UC Midasbuy",
-  "Midasbuy BGMI store", "Midasbuy BGMI official", "middasbuy BGMI UC",
+  "Midasbuy BGMI store", "Midasbuy BGMI official", "midasbuy.lombuy BGMI UC",
   
   // Action Keywords (High Intent)
   "buy BGMI UC online", "purchase BGMI UC", "order BGMI UC", "get BGMI UC",

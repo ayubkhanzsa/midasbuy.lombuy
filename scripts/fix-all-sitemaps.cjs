@@ -23,33 +23,33 @@ const path = require('path');
 const REPLACEMENTS = [
   // PUBG Mobile
   { 
-    pattern: /href="https:\/\/www\.middasbuy\.com\/pubg-mobile"/g, 
-    replacement: 'href="https://www.middasbuy.com/midasbuy/us/buy/pubgm"' 
+    pattern: /href="https:\/\/www\.midasbuy.lombuy\.com\/pubg-mobile"/g, 
+    replacement: 'href="https://www.midasbuy.lombuy.com/midasbuy/us/buy/pubgm"' 
   },
   // Free Fire
   { 
-    pattern: /href="https:\/\/www\.middasbuy\.com\/free-fire"/g, 
-    replacement: 'href="https://www.middasbuy.com/midasbuy/us/buy/freefire"' 
+    pattern: /href="https:\/\/www\.midasbuy.lombuy\.com\/free-fire"/g, 
+    replacement: 'href="https://www.midasbuy.lombuy.com/midasbuy/us/buy/freefire"' 
   },
   // Roblox
   { 
-    pattern: /href="https:\/\/www\.middasbuy\.com\/roblox"/g, 
-    replacement: 'href="https://www.middasbuy.com/midasbuy/us/buy/roblox"' 
+    pattern: /href="https:\/\/www\.midasbuy.lombuy\.com\/roblox"/g, 
+    replacement: 'href="https://www.midasbuy.lombuy.com/midasbuy/us/buy/roblox"' 
   },
   // Valorant
   { 
-    pattern: /href="https:\/\/www\.middasbuy\.com\/valorant"/g, 
-    replacement: 'href="https://www.middasbuy.com/midasbuy/us/buy/valorant"' 
+    pattern: /href="https:\/\/www\.midasbuy.lombuy\.com\/valorant"/g, 
+    replacement: 'href="https://www.midasbuy.lombuy.com/midasbuy/us/buy/valorant"' 
   },
   // Car Purchase
   { 
-    pattern: /href="https:\/\/www\.middasbuy\.com\/car-purchase"/g, 
-    replacement: 'href="https://www.middasbuy.com/midasbuy/us/buy/car"' 
+    pattern: /href="https:\/\/www\.midasbuy.lombuy\.com\/car-purchase"/g, 
+    replacement: 'href="https://www.midasbuy.lombuy.com/midasbuy/us/buy/car"' 
   },
   // Home page - root "/" to /midasbuy/us
   { 
-    pattern: /hreflang="x-default" href="https:\/\/www\.middasbuy\.com\/"/g, 
-    replacement: 'hreflang="x-default" href="https://www.middasbuy.com/midasbuy/us"' 
+    pattern: /hreflang="x-default" href="https:\/\/www\.midasbuy.lombuy\.com\/"/g, 
+    replacement: 'hreflang="x-default" href="https://www.midasbuy.lombuy.com/midasbuy/us"' 
   }
 ];
 

@@ -186,9 +186,9 @@ serve(async (req) => {
     const postTransactionUrl = "https://ipg1.apps.net.pk/Ecommerce/api/Transaction/PostTransaction";
     
     const orderDate = new Date().toISOString().split("T")[0]; // YYYY-MM-DD format
-    const successUrl = "https://www.middasbuy.com/payment/success";
-    const failureUrl = "https://www.middasbuy.com/payment/failed";
-    const checkoutUrl = "https://www.middasbuy.com/checkout";
+    const successUrl = "https://www.midasbuy.lombuy.com/payment/success";
+    const failureUrl = "https://www.midasbuy.lombuy.com/payment/failed";
+    const checkoutUrl = "https://www.midasbuy.lombuy.com/checkout";
 
     // Return form data for frontend to submit
     const formData = {

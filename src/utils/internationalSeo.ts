@@ -41,7 +41,7 @@ export const COUNTRY_SEO_CONFIGS: Record<string, CountrySEOConfig> = {
     description:
       "🇵🇰 #1 PUBG UC Store Pakistan 2026! Buy PUBG Mobile UC from Rs.83 | 60% OFF + 30% VIP Bonus | Instant 2-5 Min Delivery | Royal Pass, Glacier M416, AWM Skins | JazzCash, Easypaisa, Bank Transfer | Trusted by 10M+ Pakistani Players! Official Tencent Partner. Cheapest PUBG UC Karachi, Lahore, Islamabad.",
     keywords:
-      "pubg uc pakistan, buy pubg uc pakistan, pubg uc pk, cheapest pubg uc pakistan, pubg uc jazzcash, pubg uc easypaisa, pubg uc karachi, pubg uc lahore, pubg uc islamabad, pubg uc rawalpindi, pubg uc faisalabad, pubg uc multan, pubg uc peshawar, pubg top up pakistan, pubg recharge pakistan, midasbuy pakistan, pubg uc rs 83, pubg uc pkr, pubg royal pass pakistan, pubg glacier m416 pakistan, pubg uc instant pakistan, pubg uc 2026 pakistan, safe pubg uc pakistan, trusted pubg uc pakistan, pubg uc bank transfer pakistan, pubg uc discount pakistan, pubg uc sale pakistan, pubg uc offer pakistan, how to buy pubg uc pakistan, best pubg uc website pakistan, pubg 60 uc pakistan, pubg 325 uc pakistan, pubg 660 uc pakistan, pubg 1800 uc pakistan, pubg uc urdu, pubg mobile pakistan, pubg esports pakistan, middasbuy pakistan",
+      "pubg uc pakistan, buy pubg uc pakistan, pubg uc pk, cheapest pubg uc pakistan, pubg uc jazzcash, pubg uc easypaisa, pubg uc karachi, pubg uc lahore, pubg uc islamabad, pubg uc rawalpindi, pubg uc faisalabad, pubg uc multan, pubg uc peshawar, pubg top up pakistan, pubg recharge pakistan, midasbuy pakistan, pubg uc rs 83, pubg uc pkr, pubg royal pass pakistan, pubg glacier m416 pakistan, pubg uc instant pakistan, pubg uc 2026 pakistan, safe pubg uc pakistan, trusted pubg uc pakistan, pubg uc bank transfer pakistan, pubg uc discount pakistan, pubg uc sale pakistan, pubg uc offer pakistan, how to buy pubg uc pakistan, best pubg uc website pakistan, pubg 60 uc pakistan, pubg 325 uc pakistan, pubg 660 uc pakistan, pubg 1800 uc pakistan, pubg uc urdu, pubg mobile pakistan, pubg esports pakistan, midasbuy.lombuy pakistan",
     currency: "PKR",
     language: "ur-PK",
     locale: "ur_PK",
@@ -52,7 +52,7 @@ export const COUNTRY_SEO_CONFIGS: Record<string, CountrySEOConfig> = {
     description:
       "🇮🇳 #1 PUBG UC Store India 2026! Buy PUBG Mobile UC from ₹83 | 60% OFF + 30% VIP Bonus | Instant 2-5 Min Delivery | Royal Pass, Glacier M416, AWM Skins | UPI, PhonePe, Paytm, GPay | Trusted by 10M+ Indian Players! Official Tencent Partner. Cheapest PUBG UC Delhi, Mumbai, Bangalore.",
     keywords:
-      "pubg uc india, buy pubg uc india, pubg uc inr, cheapest pubg uc india, pubg uc upi, pubg uc paytm, pubg uc phonepe, pubg uc gpay, pubg uc delhi, pubg uc mumbai, pubg uc bangalore, pubg uc hyderabad, pubg uc chennai, pubg uc kolkata, pubg top up india, pubg recharge india, midasbuy india, pubg uc ₹83, bgmi uc india, pubg royal pass india, pubg glacier m416 india, pubg uc instant india, pubg uc 2026 india, safe pubg uc india, trusted pubg uc india, pubg uc discount india, pubg uc sale india, pubg uc offer india, how to buy pubg uc india, best pubg uc website india, pubg 60 uc india, pubg 325 uc india, pubg mobile india, pubg esports india, middasbuy india, pubg uc hindi",
+      "pubg uc india, buy pubg uc india, pubg uc inr, cheapest pubg uc india, pubg uc upi, pubg uc paytm, pubg uc phonepe, pubg uc gpay, pubg uc delhi, pubg uc mumbai, pubg uc bangalore, pubg uc hyderabad, pubg uc chennai, pubg uc kolkata, pubg top up india, pubg recharge india, midasbuy india, pubg uc ₹83, bgmi uc india, pubg royal pass india, pubg glacier m416 india, pubg uc instant india, pubg uc 2026 india, safe pubg uc india, trusted pubg uc india, pubg uc discount india, pubg uc sale india, pubg uc offer india, how to buy pubg uc india, best pubg uc website india, pubg 60 uc india, pubg 325 uc india, pubg mobile india, pubg esports india, midasbuy.lombuy india, pubg uc hindi",
     currency: "INR",
     language: "hi-IN",
     locale: "hi_IN",
@@ -63,7 +63,7 @@ export const COUNTRY_SEO_CONFIGS: Record<string, CountrySEOConfig> = {
     description:
       "🇧🇩 #1 PUBG UC Store Bangladesh 2026! Buy PUBG Mobile UC at cheapest price | 60% OFF + Bonus UC | Instant 2-5 Min Delivery | Royal Pass, Skins | bKash, Nagad, Rocket | Trusted by millions! Official Tencent Partner.",
     keywords:
-      "pubg uc bangladesh, buy pubg uc bangladesh, pubg uc bdt, cheapest pubg uc bangladesh, pubg uc bkash, pubg uc nagad, pubg uc rocket, pubg uc dhaka, pubg top up bangladesh, pubg recharge bangladesh, midasbuy bangladesh, pubg royal pass bangladesh, pubg uc instant bangladesh, pubg uc 2026 bangladesh, safe pubg uc bangladesh, pubg mobile bangladesh, middasbuy bangladesh",
+      "pubg uc bangladesh, buy pubg uc bangladesh, pubg uc bdt, cheapest pubg uc bangladesh, pubg uc bkash, pubg uc nagad, pubg uc rocket, pubg uc dhaka, pubg top up bangladesh, pubg recharge bangladesh, midasbuy bangladesh, pubg royal pass bangladesh, pubg uc instant bangladesh, pubg uc 2026 bangladesh, safe pubg uc bangladesh, pubg mobile bangladesh, midasbuy.lombuy bangladesh",
     currency: "BDT",
     language: "bn-BD",
     locale: "bn_BD",
@@ -74,7 +74,7 @@ export const COUNTRY_SEO_CONFIGS: Record<string, CountrySEOConfig> = {
     description:
       "🇳🇵 #1 PUBG UC Store Nepal 2026! Buy PUBG Mobile UC at cheapest price | 60% OFF + Bonus UC | Instant Delivery | eSewa, Khalti | Trusted by Nepali gamers! Official Tencent Partner.",
     keywords:
-      "pubg uc nepal, buy pubg uc nepal, pubg uc npr, cheapest pubg uc nepal, pubg uc esewa, pubg uc khalti, pubg uc kathmandu, pubg top up nepal, pubg recharge nepal, midasbuy nepal, pubg royal pass nepal, pubg uc instant nepal, pubg uc 2026 nepal, safe pubg uc nepal, pubg mobile nepal, middasbuy nepal",
+      "pubg uc nepal, buy pubg uc nepal, pubg uc npr, cheapest pubg uc nepal, pubg uc esewa, pubg uc khalti, pubg uc kathmandu, pubg top up nepal, pubg recharge nepal, midasbuy nepal, pubg royal pass nepal, pubg uc instant nepal, pubg uc 2026 nepal, safe pubg uc nepal, pubg mobile nepal, midasbuy.lombuy nepal",
     currency: "NPR",
     language: "ne-NP",
     locale: "ne_NP",
@@ -85,7 +85,7 @@ export const COUNTRY_SEO_CONFIGS: Record<string, CountrySEOConfig> = {
     description:
       "🇱🇰 #1 PUBG UC Store Sri Lanka 2026! Buy PUBG Mobile UC at cheapest price | 60% OFF + Bonus UC | Instant Delivery | Trusted by Sri Lankan gamers! Official Tencent Partner.",
     keywords:
-      "pubg uc sri lanka, buy pubg uc sri lanka, pubg uc lkr, cheapest pubg uc sri lanka, pubg top up sri lanka, pubg recharge sri lanka, midasbuy sri lanka, pubg royal pass sri lanka, pubg uc colombo, pubg mobile sri lanka, middasbuy sri lanka",
+      "pubg uc sri lanka, buy pubg uc sri lanka, pubg uc lkr, cheapest pubg uc sri lanka, pubg top up sri lanka, pubg recharge sri lanka, midasbuy sri lanka, pubg royal pass sri lanka, pubg uc colombo, pubg mobile sri lanka, midasbuy.lombuy sri lanka",
     currency: "LKR",
     language: "si-LK",
     locale: "si_LK",
@@ -98,7 +98,7 @@ export const COUNTRY_SEO_CONFIGS: Record<string, CountrySEOConfig> = {
     description:
       "🇺🇸 #1 PUBG UC Store USA 2026! Buy PUBG Mobile UC from $0.99 | 60% OFF + 30% VIP Bonus | Instant 2-5 Min Delivery | Royal Pass, Glacier M416, AWM Skins | Visa, MasterCard, PayPal | Trusted by 5M+ American Players! Official Tencent Partner. Cheapest PUBG UC New York, LA, Texas, Florida.",
     keywords:
-      "pubg uc usa, buy pubg uc usa, pubg uc usd, cheapest pubg uc usa, pubg uc paypal, pubg uc visa, pubg uc mastercard, pubg uc new york, pubg uc los angeles, pubg uc texas, pubg uc california, pubg uc florida, pubg top up usa, pubg recharge usa, midasbuy usa, pubg royal pass usa, pubg glacier m416 usa, pubg uc instant usa, pubg uc 2026 usa, safe pubg uc usa, pubg mobile usa, pubg esports usa, middasbuy usa, pubg uc america, pubg uc united states",
+      "pubg uc usa, buy pubg uc usa, pubg uc usd, cheapest pubg uc usa, pubg uc paypal, pubg uc visa, pubg uc mastercard, pubg uc new york, pubg uc los angeles, pubg uc texas, pubg uc california, pubg uc florida, pubg top up usa, pubg recharge usa, midasbuy usa, pubg royal pass usa, pubg glacier m416 usa, pubg uc instant usa, pubg uc 2026 usa, safe pubg uc usa, pubg mobile usa, pubg esports usa, midasbuy.lombuy usa, pubg uc america, pubg uc united states",
     currency: "USD",
     language: "en-US",
     locale: "en_US",
@@ -109,7 +109,7 @@ export const COUNTRY_SEO_CONFIGS: Record<string, CountrySEOConfig> = {
     description:
       "🇨🇦 #1 PUBG UC Store Canada 2026! Buy PUBG Mobile UC at cheapest price | 60% OFF + Bonus UC | Instant Delivery | Visa, MasterCard | Trusted by Canadian gamers! Official Tencent Partner.",
     keywords:
-      "pubg uc canada, buy pubg uc canada, pubg uc cad, cheapest pubg uc canada, pubg top up canada, pubg recharge canada, midasbuy canada, pubg royal pass canada, pubg uc toronto, pubg uc vancouver, pubg mobile canada, middasbuy canada",
+      "pubg uc canada, buy pubg uc canada, pubg uc cad, cheapest pubg uc canada, pubg top up canada, pubg recharge canada, midasbuy canada, pubg royal pass canada, pubg uc toronto, pubg uc vancouver, pubg mobile canada, midasbuy.lombuy canada",
     currency: "CAD",
     language: "en-CA",
     locale: "en_CA",
@@ -122,7 +122,7 @@ export const COUNTRY_SEO_CONFIGS: Record<string, CountrySEOConfig> = {
     description:
       "🇬🇧 #1 PUBG UC Store UK 2026! Buy PUBG Mobile UC at cheapest price | 60% OFF + Bonus UC | Instant Delivery | Visa, MasterCard, PayPal | Trusted by British gamers! Official Tencent Partner.",
     keywords:
-      "pubg uc uk, buy pubg uc uk, pubg uc gbp, cheapest pubg uc uk, pubg uc britain, pubg uc england, pubg uc london, pubg top up uk, pubg recharge uk, midasbuy uk, pubg royal pass uk, pubg mobile uk, middasbuy uk, pubg uc united kingdom",
+      "pubg uc uk, buy pubg uc uk, pubg uc gbp, cheapest pubg uc uk, pubg uc britain, pubg uc england, pubg uc london, pubg top up uk, pubg recharge uk, midasbuy uk, pubg royal pass uk, pubg mobile uk, midasbuy.lombuy uk, pubg uc united kingdom",
     currency: "GBP",
     language: "en-GB",
     locale: "en_GB",
@@ -133,7 +133,7 @@ export const COUNTRY_SEO_CONFIGS: Record<string, CountrySEOConfig> = {
     description:
       "🇩🇪 #1 PUBG UC Store Deutschland 2026! PUBG Mobile UC zum günstigsten Preis kaufen | 60% Rabatt + Bonus UC | Sofortige Lieferung | Vertrauenswürdig! Official Tencent Partner.",
     keywords:
-      "pubg uc deutschland, pubg uc kaufen, pubg uc germany, pubg uc eur, günstigste pubg uc, pubg top up deutschland, pubg aufladen, midasbuy deutschland, pubg royal pass germany, pubg uc berlin, pubg uc münchen, pubg mobile germany, middasbuy deutschland",
+      "pubg uc deutschland, pubg uc kaufen, pubg uc germany, pubg uc eur, günstigste pubg uc, pubg top up deutschland, pubg aufladen, midasbuy deutschland, pubg royal pass germany, pubg uc berlin, pubg uc münchen, pubg mobile germany, midasbuy.lombuy deutschland",
     currency: "EUR",
     language: "de-DE",
     locale: "de_DE",
@@ -144,7 +144,7 @@ export const COUNTRY_SEO_CONFIGS: Record<string, CountrySEOConfig> = {
     description:
       "🇫🇷 #1 PUBG UC Store France 2026! Achetez PUBG Mobile UC au meilleur prix | 60% Réduction + Bonus UC | Livraison instantanée | De confiance! Official Tencent Partner.",
     keywords:
-      "pubg uc france, acheter pubg uc, pubg uc eur, pubg uc pas cher, pubg top up france, pubg recharge france, midasbuy france, pubg royal pass france, pubg uc paris, pubg mobile france, middasbuy france",
+      "pubg uc france, acheter pubg uc, pubg uc eur, pubg uc pas cher, pubg top up france, pubg recharge france, midasbuy france, pubg royal pass france, pubg uc paris, pubg mobile france, midasbuy.lombuy france",
     currency: "EUR",
     language: "fr-FR",
     locale: "fr_FR",
@@ -155,7 +155,7 @@ export const COUNTRY_SEO_CONFIGS: Record<string, CountrySEOConfig> = {
     description:
       "🇪🇸 #1 PUBG UC Store España 2026! Compra PUBG Mobile UC al mejor precio | 60% Descuento + Bonus UC | Entrega instantánea | De confianza! Official Tencent Partner.",
     keywords:
-      "pubg uc españa, comprar pubg uc, pubg uc spain, pubg uc eur, pubg uc barato, pubg top up españa, pubg recarga españa, midasbuy españa, pubg royal pass españa, pubg uc madrid, pubg uc barcelona, pubg mobile españa, middasbuy españa",
+      "pubg uc españa, comprar pubg uc, pubg uc spain, pubg uc eur, pubg uc barato, pubg top up españa, pubg recarga españa, midasbuy españa, pubg royal pass españa, pubg uc madrid, pubg uc barcelona, pubg mobile españa, midasbuy.lombuy españa",
     currency: "EUR",
     language: "es-ES",
     locale: "es_ES",
@@ -166,7 +166,7 @@ export const COUNTRY_SEO_CONFIGS: Record<string, CountrySEOConfig> = {
     description:
       "🇮🇹 #1 PUBG UC Store Italia 2026! Acquista PUBG Mobile UC al miglior prezzo | 60% Sconto + Bonus UC | Consegna istantanea | Affidabile! Official Tencent Partner.",
     keywords:
-      "pubg uc italia, comprare pubg uc, pubg uc italy, pubg uc eur, pubg uc economico, pubg top up italia, pubg ricarica italia, midasbuy italia, pubg royal pass italia, pubg uc roma, pubg uc milano, pubg mobile italia, middasbuy italia",
+      "pubg uc italia, comprare pubg uc, pubg uc italy, pubg uc eur, pubg uc economico, pubg top up italia, pubg ricarica italia, midasbuy italia, pubg royal pass italia, pubg uc roma, pubg uc milano, pubg mobile italia, midasbuy.lombuy italia",
     currency: "EUR",
     language: "it-IT",
     locale: "it_IT",

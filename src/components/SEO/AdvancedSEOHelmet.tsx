@@ -41,7 +41,7 @@ const AdvancedSEOHelmet = ({
     "@type": "WebSite",
     "name": "Midasbuy",
     "headline": "Midasbuy - Official PUBG Mobile UC Top Up Store",
-    "alternateName": ["Midasbuy Official", "Midasbuy Store", "Midasbuy UC", "Middasbuy"],
+    "alternateName": ["Midasbuy Official", "Midasbuy Store", "Midasbuy UC", "midasbuy.lombuy"],
     "url": baseUrl,
     "identifier": "Midasbuy",
     "description": "Midasbuy is the #1 official PUBG Mobile UC top-up platform. Buy cheap UC, Free Fire Diamonds, Roblox Robux with instant delivery and secure payments.",
@@ -63,7 +63,7 @@ const AdvancedSEOHelmet = ({
     "@type": "Organization",
     "name": "Midasbuy",
     "legalName": "Midasbuy",
-    "alternateName": ["Midasbuy Official", "Midasbuy Store", "Midasbuy UC", "Midasbuy PUBG Mobile", "Middasbuy"],
+    "alternateName": ["Midasbuy Official", "Midasbuy Store", "Midasbuy UC", "Midasbuy PUBG Mobile", "midasbuy.lombuy"],
     "url": baseUrl,
     "identifier": "Midasbuy",
     "logo": `${baseUrl}/lovable-uploads/6a2f0c2f-451c-457f-bb64-eabf3e7698e6.png`,
@@ -73,7 +73,7 @@ const AdvancedSEOHelmet = ({
       `${baseUrl}`,
       `${baseUrl}/about-midasbuy`,
       "https://www.facebook.com/midasbuy",
-      "https://x.com/middasbuy",
+      "https://x.com/midasbuy.lombuy",
       "https://www.instagram.com/midasbuy"
     ],
     "contactPoint": {
@@ -158,8 +158,8 @@ const AdvancedSEOHelmet = ({
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={fullOgImage} />
       <meta name="twitter:image:alt" content={title} />
-      <meta name="twitter:site" content="@middasbuy" />
-      <meta name="twitter:creator" content="@middasbuy" />
+      <meta name="twitter:site" content="@midasbuy.lombuy" />
+      <meta name="twitter:creator" content="@midasbuy.lombuy" />
 
       {/* Mobile Optimization */}
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
