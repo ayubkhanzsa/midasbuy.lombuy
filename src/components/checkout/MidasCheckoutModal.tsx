@@ -36,6 +36,7 @@ import { GuestEmailDialog } from "@/components/GuestEmailDialog";
 import { useNavigate, useParams } from "react-router-dom";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { useAuthModal } from "@/contexts/AuthModalContext";
+import { useEnabledGateways } from "@/hooks/usePaymentGateways";
 import { 
   ttqViewContent, 
   ttqInitiateCheckout, 
@@ -137,6 +138,7 @@ const MidasCheckoutModal: React.FC<MidasCheckoutModalProps> = ({
   };
   
   const [selectedMethod, setSelectedMethod] = useState<string>('card');
+  const { isEnabled: isGatewayEnabled } = useEnabledGateways();
   const [showPriceDetails, setShowPriceDetails] = useState<boolean>(false);
   const [showPlayerIdModal, setShowPlayerIdModal] = useState<boolean>(false);
   const [showCouponModal, setShowCouponModal] = useState<boolean>(false);
@@ -1474,6 +1476,7 @@ const MidasCheckoutModal: React.FC<MidasCheckoutModalProps> = ({
                    {/* Payment Methods */}
                    <div className="px-4 space-y-3 md:px-0">
                       {/* Credit Card / Global Payment */}
+                      {isGatewayEnabled('card') && (
                       <div 
                         onClick={() => setSelectedMethod('card')}
                         className={`relative rounded-xl p-4 pt-6 transition-all duration-200 border-[1.5px] overflow-hidden cursor-pointer ${
@@ -1541,9 +1544,10 @@ const MidasCheckoutModal: React.FC<MidasCheckoutModalProps> = ({
                           </div>
                         </div>
                       </div>
+                      )}
 
                       {/* PayFast - Only for Pakistan */}
-                      {isPakistan && (
+                      {isGatewayEnabled('payfast') && isPakistan && (
                         <div className="space-y-0">
                           <div 
                             onClick={() => setSelectedMethod('payfast')}
@@ -1637,6 +1641,7 @@ const MidasCheckoutModal: React.FC<MidasCheckoutModalProps> = ({
                       )}
 
                       {/* Binance Pay */}
+                      {isGatewayEnabled('binance') && (
                       <div className="space-y-0">
                         <div 
                           onClick={() => {
@@ -1685,6 +1690,7 @@ const MidasCheckoutModal: React.FC<MidasCheckoutModalProps> = ({
                           </div>
                         )}
                       </div>
+                      )}
                    </div>
                 </div>
 

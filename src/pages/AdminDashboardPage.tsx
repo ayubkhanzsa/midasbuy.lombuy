@@ -18,6 +18,7 @@ import { NotificationSettings } from '@/components/admin/NotificationSettings';
 import { CustomerInquiries } from '@/components/admin/CustomerInquiries';
 import { RevenueAnalytics } from '@/components/admin/RevenueAnalytics';
 import { RedeemCodesManagement } from '@/components/admin/RedeemCodesManagement';
+import PaymentGatewaysManagement from '@/components/admin/PaymentGatewaysManagement';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
@@ -352,6 +353,8 @@ export default function AdminDashboardPage() {
         return renderSiteAssets();
       case 'payment':
         return renderPaymentCredentials();
+      case 'payment-gateways':
+        return <PaymentGatewaysManagement />;
       case 'content':
         return renderContentBlocks();
       case 'admins':
