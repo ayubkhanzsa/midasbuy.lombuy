@@ -310,7 +310,9 @@ const CountryHomePage = ({ onLogout = () => {} }: CountryHomePageProps) => {
         
       </div>
     </div>
+    </div>
   );
+
 
   return (
     <>
