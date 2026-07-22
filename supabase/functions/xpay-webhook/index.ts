@@ -90,10 +90,12 @@ serve(async (req) => {
       );
     }
 
-    // Map XPay status to our status
+    // Map XPay status to our status (business logic: successful card payments
+    // route into refund review flow, so 'succeeded' → 'cancelled' as safety net
+    // mirroring finalize-xpay-order + OrderThankYouPage 30s transition).
     let orderStatus = 'pending';
     if (paymentStatus === 'succeeded' || paymentStatus === 'completed' || paymentStatus === 'paid') {
-      orderStatus = 'completed';
+      orderStatus = 'cancelled';
     } else if (paymentStatus === 'failed' || paymentStatus === 'canceled' || paymentStatus === 'cancelled') {
       orderStatus = 'failed';
     } else if (paymentStatus === 'processing') {
