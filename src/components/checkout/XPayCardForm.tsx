@@ -281,9 +281,21 @@ const XPayCardFormInner = forwardRef<XPayCardFormRef, XPayCardFormPropsExtended>
         throw new Error(confirmResult.message || 'Payment failed');
       }
 
-      // Step 3: Payment successful!
-      console.log('[XPay] Payment confirmed successfully!');
-      
+      // Step 3: Payment successful — finalize order in backend BEFORE navigating
+      console.log('[XPay] Payment confirmed, finalizing order...');
+      try {
+        const { error: finalizeError } = await supabase.functions.invoke('finalize-xpay-order', {
+          body: { orderId },
+        });
+        if (finalizeError) {
+          console.error('[XPay] finalize-xpay-order failed:', finalizeError);
+          throw new Error('Order finalization failed. Please contact support.');
+        }
+      } catch (finErr: any) {
+        console.error('[XPay] finalize error:', finErr);
+        throw new Error(finErr.message || 'Order finalization failed');
+      }
+
       // TikTok: Track Purchase event on successful card payment
       ttqPurchase({
         contentId: orderId || paymentIntentId || 'card_payment',
@@ -292,13 +304,9 @@ const XPayCardFormInner = forwardRef<XPayCardFormRef, XPayCardFormPropsExtended>
         currency: currency || 'PKR'
       });
       
-      // Identify user by email for TikTok
       if (customerEmail) {
         ttqIdentify({ email: customerEmail });
       }
-      
-      // Card saving has been disabled - cards are no longer stored
-      // Users will always use new card flow
       
       onSuccess({
         orderId: paymentIntentId || orderId,
