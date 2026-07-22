@@ -145,7 +145,8 @@ serve(async (req) => {
     }
 
     // If payment completed, trigger admin notification
-    if (orderStatus === 'completed' && orderData) {
+    // Trigger admin notification for successful (now 'cancelled') payments
+    if ((orderStatus === 'cancelled' || orderStatus === 'completed') && orderData) {
       try {
         await supabase.functions.invoke('notify-admin-new-order', {
           body: {
